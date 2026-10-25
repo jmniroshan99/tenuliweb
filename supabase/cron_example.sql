@@ -1,0 +1,6 @@
+-- Replaced by the production-ready setup in v1.5.8+13.
+-- Insurance + Revenue Licence + Emission + Fitness are scheduled by:
+--   AUTO_EXPIRY_NOTIFICATIONS_SCHEDULE_RUN_THIS.sql
+--
+-- Manual production-path test:
+--   RUN_EXPIRY_NOTIFICATIONS_NOW.sql

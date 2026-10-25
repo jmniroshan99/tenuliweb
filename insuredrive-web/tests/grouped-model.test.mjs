@@ -1,0 +1,9 @@
+import test from'node:test';import assert from'node:assert/strict';import{billSections,groupedBillPages,itemSuggestions,workSection}from'../src/lib/grouped-billing.ts';
+const line=(category,description,excluded=false)=>({id:description,category,description,excluded,quantity:1,unit_minor:10000,discount_minor:1000,net_minor:9000,tax_minor:0});
+test('four sections normalize old names, hide excluded/empty sections and number included rows continuously',()=>{
+ const rows=[line('Paint Items','Paint'),line('Repair Items','Hidden',true),line('Remove & Refit Items','Refit'),line('Replacement Items','Part')];const s=billSections(rows);assert.deepEqual(s.map(x=>x.category),['Replacement Items','Removal & Refitting Items','Paint Items']);assert.deepEqual(s.flatMap(x=>x.lines.map(l=>l.row_number)),[1,2,3]);assert.deepEqual(s.map(x=>x.total),[9000,9000,9000]);assert.equal(workSection('Labour'),'Repair Items');
+});
+test('section pagination preserves all included long Sinhala rows, continuous numbering and one subtotal per section',()=>{
+ const rows=Array.from({length:45},(_,i)=>({...line(['Paint Items','Replacement Items','Repair Items','Remove & Refit Items'][i%4],String(i)+' වාහනයේ අලුත්වැඩියාව '.repeat(12)),notes:'විස්තරය '.repeat(40)}));const pages=groupedBillPages(rows);assert.ok(pages.length>4);assert.equal(pages.flat().reduce((n,s)=>n+s.lines.length,0),45);assert.deepEqual(pages.flat().flatMap(s=>s.lines.map(l=>l.row_number)),Array.from({length:45},(_,i)=>i+1));assert.equal(pages.flat().filter(s=>s.showSubtotal).length,4);
+});
+test('search suggestions use existing descriptions in the selected section and allow free text independently',()=>{assert.deepEqual(itemSuggestions([{lines:[line('Repair Items','Brake service'),line('Repair Items','brake service'),line('Paint Items','Door paint')]}],'Repair Items'),['brake service']);});

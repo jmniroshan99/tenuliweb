@@ -1,0 +1,6 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {workshopAccess,workshopProblem} from '../src/lib/workshop-access.ts';
+test('administrator can discover Automart before installation without fabricated grants',()=>{const p=new Set(['manage_system_settings','view_all_policies']);const a=workshopAccess('administrator',p);assert.equal(a.showRepairs,true);assert.equal(a.showShop,true);assert.equal(a.repairs,false);assert.equal(a.shop,false);assert.equal(p.size,2)});
+test('workshop discovery respects staff and owner permissions',()=>{assert.equal(workshopAccess('vehicle_owner',new Set()).showRepairs,false);assert.equal(workshopAccess('insurance_officer',new Set()).showShop,false);const a=workshopAccess('insurance_officer',new Set(['view_repairs']));assert.equal(a.showRepairs,true);assert.equal(a.showShop,false);assert.equal(a.administrator,false)});
+test('missing RPC, denied permission and connection failures have distinct guidance',()=>{assert.equal(workshopProblem({code:'PGRST202',message:'Missing function'}),'installation');assert.equal(workshopProblem({code:'42501',message:'Permission denied'}),'permissions');assert.equal(workshopProblem({message:'Failed to fetch'}),'connection')});

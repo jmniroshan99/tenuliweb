@@ -1,0 +1,150 @@
+.repair-item-combobox {
+  min-width: 0;
+}
+.grouped-editor { container-type: inline-size; }
+.catalogue-share-action { margin-top: 8px; font-size: 12px; white-space: normal; }
+@container (max-width: 600px) {
+  .grouped-editor .grouped-edit-line { grid-template-columns: minmax(0,1fr); padding: 12px; }
+  .grouped-editor .grouped-numbers { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .grouped-editor .grouped-description { grid-column: 1; min-width: 0; }
+  .grouped-editor .grouped-row-actions { flex-wrap: wrap; }
+  .grouped-editor .grouped-editor-section { padding: 10px; }
+  .grouped-editor .grouped-editor-section > header { align-items: flex-start; }
+  .grouped-editor .grouped-editor-section h3 { font-size: 15px; }
+}
+.repair-item-combobox > label {
+  display: block;
+  margin-bottom: 8px;
+}
+.repair-catalogue-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  background: var(--input, white);
+  border: 1px solid var(--line, #dce5ec);
+  border-radius: 8px;
+  padding-left: 11px;
+}
+.repair-catalogue-input:focus-within {
+  outline: 2px solid #2168ed;
+  outline-offset: 1px;
+}
+.repair-catalogue-input > svg {
+  color: var(--muted, #738093);
+  flex: 0 0 17px;
+}
+.repair-item-combobox .repair-catalogue-input input {
+  flex: 1 1 0;
+  min-width: 0;
+  width: 0;
+  padding: 11px 5px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+}
+.repair-item-combobox .repair-catalogue-icon {
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  min-width: 38px;
+  min-height: 44px;
+  background: transparent;
+  color: var(--muted, #738093);
+  flex: 0 0 38px;
+}
+.repair-catalogue-icon:hover {
+  background: var(--tint, #edf3ff);
+}
+/* In-flow placement keeps results inside a scrolling estimate modal. */
+.repair-catalogue-panel {
+  margin-top: 7px;
+  padding: 4px;
+  border: 1px solid #c4d7ec;
+  border-radius: 8px;
+  background: var(--surface, #fff);
+  box-shadow: 0 4px 14px #16395b0d;
+}
+.repair-catalogue-results {
+  padding: 6px 9px;
+  color: var(--muted, #738093);
+  font-size: 11px;
+  font-weight: 400;
+}
+.repair-catalogue-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 228px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+.repair-catalogue-panel li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  min-height: 44px;
+  padding: 9px;
+  color: var(--text, #162337);
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.repair-catalogue-panel li small {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--muted, #738093);
+}
+.repair-catalogue-panel li.active,
+.repair-catalogue-panel li:hover {
+  background: var(--tint, #edf3ff);
+  color: var(--blue, #2168ed);
+}
+.repair-item-combobox .repair-catalogue-more {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding: 7px 10px;
+  border: 0;
+  background: var(--tint, #edf3ff);
+  color: var(--blue, #2168ed);
+  font-size: 12px;
+}
+.repair-catalogue-custom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin-top: 6px;
+}
+.repair-item-combobox .repair-catalogue-custom button {
+  justify-content: flex-start;
+  min-height: 36px;
+  padding: 4px 0;
+  border: 0;
+  background: transparent;
+  color: var(--blue, #2168ed);
+  font-size: 12px;
+}
+.repair-catalogue-custom button.is-custom {
+  font-weight: 700;
+}
+.repair-catalogue-help {
+  display: block;
+  font-weight: 400;
+  color: var(--muted, #738093);
+  font-size: 11px;
+  line-height: 1.6;
+}
+@media (max-width: 600px) {
+  .repair-catalogue-panel ul {
+    max-height: 200px;
+  }
+  .repair-item-combobox .repair-catalogue-custom button {
+    min-height: 44px;
+  }
+}

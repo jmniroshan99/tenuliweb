@@ -1,0 +1,38 @@
+# Publishable API keys are used by the Flutter client. These functions perform
+# their own authenticated-user validation inside the handler so they can work
+# with current Supabase publishable keys.
+[functions.admin-manage-users]
+verify_jwt = false
+
+[functions.send-policy-reminder]
+verify_jwt = false
+
+# Cron calls this function with x-cron-secret rather than a user JWT.
+[functions.check-expiring-policies]
+verify_jwt = false
+
+# Cron calls this function with x-cron-secret rather than a user JWT.
+[functions.check-vehicle-compliance]
+verify_jwt = false
+
+# Login failures may happen before a session exists, so this function validates
+# JWTs itself when present and rate-limits unauthenticated failure events.
+[functions.record-login-activity]
+verify_jwt = false
+
+# Authenticated client calls are validated inside the handler; FCM server
+# credentials remain in Supabase secrets only.
+[functions.send-push-notification]
+verify_jwt = false
+
+# GPS tracker pairing calls validate the signed-in user inside the handler.
+[functions.vehicle-tracking-pair]
+verify_jwt = false
+
+# Car-audio telemetry validates both the user JWT and a per-device secret.
+[functions.ingest-vehicle-telemetry]
+verify_jwt = false
+
+# Scheduled tracker health check authenticates with x-cron-secret.
+[functions.check-tracking-offline]
+verify_jwt = false

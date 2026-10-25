@@ -1,0 +1,6233 @@
+{
+  "version": "1.19.0",
+  "total": 600,
+  "counts": [
+    {
+      "section": "Replacement Items",
+      "count": 100
+    },
+    {
+      "section": "Removal & Refitting Items",
+      "count": 100
+    },
+    {
+      "section": "Repair Items",
+      "count": 100
+    },
+    {
+      "section": "Paint Items",
+      "count": 100
+    },
+    {
+      "section": "Miscellaneous Items",
+      "count": 100
+    },
+    {
+      "section": "Other Charges",
+      "count": 100
+    }
+  ],
+  "entries": [
+    {
+      "id": "rep-bumper-cover",
+      "category": "Replacement Items",
+      "description": "Bumper cover",
+      "descriptionSi": "බම්පර් ආවරණය",
+      "aliases": [
+        "plastic bumper",
+        "bumper skin"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-bumper-reinforcement-bar",
+      "category": "Replacement Items",
+      "description": "Bumper reinforcement bar",
+      "aliases": [
+        "bumper beam",
+        "crash bar"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-bumper-energy-absorber",
+      "category": "Replacement Items",
+      "description": "Bumper energy absorber",
+      "aliases": [
+        "bumper foam",
+        "impact absorber"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-bumper-mounting-bracket",
+      "category": "Replacement Items",
+      "description": "Bumper mounting bracket",
+      "aliases": [
+        "bumper retainer",
+        "bumper support"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-radiator-grille",
+      "category": "Replacement Items",
+      "description": "Radiator grille",
+      "aliases": [
+        "grill",
+        "front grille"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-bonnet",
+      "category": "Replacement Items",
+      "description": "Bonnet",
+      "aliases": [
+        "hood",
+        "engine hood"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-bonnet-hinge",
+      "category": "Replacement Items",
+      "description": "Bonnet hinge",
+      "aliases": [
+        "hood hinge"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-bonnet-latch",
+      "category": "Replacement Items",
+      "description": "Bonnet latch",
+      "aliases": [
+        "hood lock",
+        "bonnet lock"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-fender",
+      "category": "Replacement Items",
+      "description": "Fender",
+      "aliases": [
+        "wing",
+        "mudguard"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-fender-liner",
+      "category": "Replacement Items",
+      "description": "Fender liner",
+      "aliases": [
+        "wheel arch liner",
+        "splash guard"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-door-shell",
+      "category": "Replacement Items",
+      "description": "Door shell",
+      "aliases": [
+        "door panel",
+        "vehicle door"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-door-hinge",
+      "category": "Replacement Items",
+      "description": "Door hinge",
+      "aliases": [
+        "door pivot"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-door-latch",
+      "category": "Replacement Items",
+      "description": "Door latch",
+      "aliases": [
+        "door lock latch"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-door-lock-actuator",
+      "category": "Replacement Items",
+      "description": "Door lock actuator",
+      "aliases": [
+        "central locking motor",
+        "door locking motor"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-door-handle",
+      "category": "Replacement Items",
+      "description": "Door handle",
+      "aliases": [
+        "door pull handle"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-door-weatherstrip",
+      "category": "Replacement Items",
+      "description": "Door weatherstrip",
+      "aliases": [
+        "door seal",
+        "door rubber"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-window-regulator",
+      "category": "Replacement Items",
+      "description": "Window regulator",
+      "aliases": [
+        "window lifter",
+        "glass regulator"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-window-motor",
+      "category": "Replacement Items",
+      "description": "Window motor",
+      "aliases": [
+        "power window motor"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-door-glass",
+      "category": "Replacement Items",
+      "description": "Door glass",
+      "aliases": [
+        "side window glass"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-windscreen",
+      "category": "Replacement Items",
+      "description": "Windscreen",
+      "aliases": [
+        "windshield",
+        "screen glass"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-windscreen-moulding",
+      "category": "Replacement Items",
+      "description": "Windscreen moulding",
+      "aliases": [
+        "windshield trim",
+        "screen moulding"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-quarter-glass",
+      "category": "Replacement Items",
+      "description": "Quarter glass",
+      "aliases": [
+        "fixed side glass",
+        "quarter window"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-tailgate",
+      "category": "Replacement Items",
+      "description": "Tailgate",
+      "aliases": [
+        "hatch door",
+        "back door"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-boot-lid",
+      "category": "Replacement Items",
+      "description": "Boot lid",
+      "aliases": [
+        "trunk lid",
+        "luggage lid"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-boot-lid-hinge",
+      "category": "Replacement Items",
+      "description": "Boot lid hinge",
+      "aliases": [
+        "trunk hinge"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-boot-latch",
+      "category": "Replacement Items",
+      "description": "Boot latch",
+      "aliases": [
+        "trunk lock",
+        "boot lock"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-boot-weatherstrip",
+      "category": "Replacement Items",
+      "description": "Boot weatherstrip",
+      "aliases": [
+        "trunk seal",
+        "luggage compartment seal"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-door-mirror-assembly",
+      "category": "Replacement Items",
+      "description": "Door mirror assembly",
+      "aliases": [
+        "side mirror",
+        "wing mirror"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-mirror-glass",
+      "category": "Replacement Items",
+      "description": "Mirror glass",
+      "aliases": [
+        "side mirror glass"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-mirror-indicator-unit",
+      "category": "Replacement Items",
+      "description": "Mirror indicator unit",
+      "aliases": [
+        "mirror turn signal"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-headlamp-assembly",
+      "category": "Replacement Items",
+      "description": "Headlamp assembly",
+      "descriptionSi": "ප්‍රධාන ලාම්පු එකලස",
+      "aliases": [
+        "head light",
+        "headlight",
+        "head lamp"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-tail-lamp-assembly",
+      "category": "Replacement Items",
+      "description": "Tail lamp assembly",
+      "aliases": [
+        "tail light",
+        "taillight",
+        "rear combination lamp"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-fog-lamp-assembly",
+      "category": "Replacement Items",
+      "description": "Fog lamp assembly",
+      "aliases": [
+        "fog light"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-turn-indicator-lamp",
+      "category": "Replacement Items",
+      "description": "Turn indicator lamp",
+      "aliases": [
+        "turn signal",
+        "indicator light"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-number-plate-lamp",
+      "category": "Replacement Items",
+      "description": "Number plate lamp",
+      "aliases": [
+        "licence plate light",
+        "license plate light"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-high-mounted-stop-lamp",
+      "category": "Replacement Items",
+      "description": "High-mounted stop lamp",
+      "aliases": [
+        "third brake light",
+        "high level brake light"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-vehicle-lamp-bulb",
+      "category": "Replacement Items",
+      "description": "Vehicle lamp bulb",
+      "aliases": [
+        "light bulb",
+        "headlight bulb"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-headlamp-ballast",
+      "category": "Replacement Items",
+      "description": "Headlamp ballast",
+      "aliases": [
+        "HID ballast",
+        "xenon ballast"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-wiper-motor",
+      "category": "Replacement Items",
+      "description": "Wiper motor",
+      "aliases": [
+        "windscreen wiper motor"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-wiper-linkage",
+      "category": "Replacement Items",
+      "description": "Wiper linkage",
+      "aliases": [
+        "wiper mechanism",
+        "wiper transmission"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-wiper-arm",
+      "category": "Replacement Items",
+      "description": "Wiper arm",
+      "aliases": [
+        "windscreen wiper arm"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-wiper-blade",
+      "category": "Replacement Items",
+      "description": "Wiper blade",
+      "aliases": [
+        "windscreen wiper blade"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-windscreen-washer-pump",
+      "category": "Replacement Items",
+      "description": "Windscreen washer pump",
+      "aliases": [
+        "washer motor",
+        "screen wash pump"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-windscreen-washer-reservoir",
+      "category": "Replacement Items",
+      "description": "Windscreen washer reservoir",
+      "aliases": [
+        "washer bottle",
+        "screen wash tank"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-radiator-assembly",
+      "category": "Replacement Items",
+      "description": "Radiator assembly",
+      "aliases": [
+        "engine radiator",
+        "cooling radiator"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-radiator-hose",
+      "category": "Replacement Items",
+      "description": "Radiator hose",
+      "aliases": [
+        "coolant hose"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-radiator-pressure-cap",
+      "category": "Replacement Items",
+      "description": "Radiator pressure cap",
+      "aliases": [
+        "cooling system cap"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-coolant-expansion-tank",
+      "category": "Replacement Items",
+      "description": "Coolant expansion tank",
+      "aliases": [
+        "overflow bottle",
+        "coolant reservoir"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-cooling-fan-motor",
+      "category": "Replacement Items",
+      "description": "Cooling fan motor",
+      "aliases": [
+        "radiator fan motor"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-cooling-fan-shroud",
+      "category": "Replacement Items",
+      "description": "Cooling fan shroud",
+      "aliases": [
+        "radiator fan housing"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-engine-coolant-thermostat",
+      "category": "Replacement Items",
+      "description": "Engine coolant thermostat",
+      "aliases": [
+        "cooling thermostat"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-engine-water-pump",
+      "category": "Replacement Items",
+      "description": "Engine water pump",
+      "aliases": [
+        "coolant pump"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-air-conditioning-condenser",
+      "category": "Replacement Items",
+      "description": "Air-conditioning condenser",
+      "aliases": [
+        "AC condenser",
+        "aircon condenser",
+        "air conditioning condenser"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-air-conditioning-compressor",
+      "category": "Replacement Items",
+      "description": "Air-conditioning compressor",
+      "aliases": [
+        "AC compressor",
+        "aircon compressor"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-air-conditioning-evaporator",
+      "category": "Replacement Items",
+      "description": "Air-conditioning evaporator",
+      "aliases": [
+        "AC evaporator",
+        "aircon cooling coil"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-air-conditioning-receiver-drier",
+      "category": "Replacement Items",
+      "description": "Air-conditioning receiver-drier",
+      "aliases": [
+        "AC drier",
+        "aircon receiver dryer"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-air-conditioning-expansion-valve",
+      "category": "Replacement Items",
+      "description": "Air-conditioning expansion valve",
+      "aliases": [
+        "AC expansion valve",
+        "TX valve"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-cabin-blower-motor",
+      "category": "Replacement Items",
+      "description": "Cabin blower motor",
+      "aliases": [
+        "heater fan motor",
+        "AC blower"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-cabin-air-filter",
+      "category": "Replacement Items",
+      "description": "Cabin air filter",
+      "aliases": [
+        "pollen filter",
+        "AC filter"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-heater-core",
+      "category": "Replacement Items",
+      "description": "Heater core",
+      "aliases": [
+        "heater matrix"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-engine-mounting",
+      "category": "Replacement Items",
+      "description": "Engine mounting",
+      "aliases": [
+        "engine mount",
+        "engine support"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-transmission-mounting",
+      "category": "Replacement Items",
+      "description": "Transmission mounting",
+      "aliases": [
+        "gearbox mount",
+        "transmission mount"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-accessory-drive-belt",
+      "category": "Replacement Items",
+      "description": "Accessory drive belt",
+      "aliases": [
+        "fan belt",
+        "serpentine belt",
+        "alternator belt"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-drive-belt-tensioner",
+      "category": "Replacement Items",
+      "description": "Drive belt tensioner",
+      "aliases": [
+        "serpentine tensioner",
+        "fan belt tensioner"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-timing-belt",
+      "category": "Replacement Items",
+      "description": "Timing belt",
+      "aliases": [
+        "cam belt",
+        "cambelt"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-engine-air-filter",
+      "category": "Replacement Items",
+      "description": "Engine air filter",
+      "aliases": [
+        "air cleaner element",
+        "intake filter"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-engine-oil-filter",
+      "category": "Replacement Items",
+      "description": "Engine oil filter",
+      "aliases": [
+        "oil filter element"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-fuel-filter",
+      "category": "Replacement Items",
+      "description": "Fuel filter",
+      "aliases": [
+        "petrol filter",
+        "diesel filter"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-spark-plug",
+      "category": "Replacement Items",
+      "description": "Spark plug",
+      "aliases": [
+        "ignition plug"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-ignition-coil",
+      "category": "Replacement Items",
+      "description": "Ignition coil",
+      "aliases": [
+        "coil pack",
+        "plug coil"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-starter-motor",
+      "category": "Replacement Items",
+      "description": "Starter motor",
+      "aliases": [
+        "starting motor",
+        "self starter"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-alternator-assembly",
+      "category": "Replacement Items",
+      "description": "Alternator assembly",
+      "aliases": [
+        "charging alternator"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-vehicle-battery",
+      "category": "Replacement Items",
+      "description": "Vehicle battery",
+      "aliases": [
+        "starter battery",
+        "car battery"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-battery-tray",
+      "category": "Replacement Items",
+      "description": "Battery tray",
+      "aliases": [
+        "battery platform",
+        "battery carrier"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-engine-undertray",
+      "category": "Replacement Items",
+      "description": "Engine undertray",
+      "aliases": [
+        "engine splash shield",
+        "lower engine cover"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-exhaust-muffler",
+      "category": "Replacement Items",
+      "description": "Exhaust muffler",
+      "aliases": [
+        "silencer",
+        "exhaust silencer"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-exhaust-mounting-rubber",
+      "category": "Replacement Items",
+      "description": "Exhaust mounting rubber",
+      "aliases": [
+        "exhaust hanger",
+        "silencer mount"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-oxygen-sensor",
+      "category": "Replacement Items",
+      "description": "Oxygen sensor",
+      "aliases": [
+        "O2 sensor",
+        "lambda sensor"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-brake-pad-set",
+      "category": "Replacement Items",
+      "description": "Brake pad set",
+      "aliases": [
+        "disc brake pads"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-brake-disc",
+      "category": "Replacement Items",
+      "description": "Brake disc",
+      "descriptionSi": "තිරිංග තැටිය",
+      "aliases": [
+        "brake rotor",
+        "disc rotor"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-brake-shoe-set",
+      "category": "Replacement Items",
+      "description": "Brake shoe set",
+      "aliases": [
+        "drum brake shoes"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-brake-drum",
+      "category": "Replacement Items",
+      "description": "Brake drum",
+      "aliases": [
+        "drum brake housing"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-brake-caliper",
+      "category": "Replacement Items",
+      "description": "Brake caliper",
+      "aliases": [
+        "disc brake caliper"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-brake-master-cylinder",
+      "category": "Replacement Items",
+      "description": "Brake master cylinder",
+      "aliases": [
+        "master brake cylinder"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-flexible-brake-hose",
+      "category": "Replacement Items",
+      "description": "Flexible brake hose",
+      "aliases": [
+        "brake flex hose"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-abs-wheel-speed-sensor",
+      "category": "Replacement Items",
+      "description": "ABS wheel speed sensor",
+      "aliases": [
+        "ABS sensor",
+        "wheel speed sensor"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-shock-absorber",
+      "category": "Replacement Items",
+      "description": "Shock absorber",
+      "aliases": [
+        "damper",
+        "suspension shock"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-suspension-strut-mounting",
+      "category": "Replacement Items",
+      "description": "Suspension strut mounting",
+      "aliases": [
+        "top mount",
+        "strut top mount"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-suspension-coil-spring",
+      "category": "Replacement Items",
+      "description": "Suspension coil spring",
+      "aliases": [
+        "coil spring"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-suspension-control-arm",
+      "category": "Replacement Items",
+      "description": "Suspension control arm",
+      "aliases": [
+        "wishbone",
+        "lower arm"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-control-arm-bush",
+      "category": "Replacement Items",
+      "description": "Control arm bush",
+      "aliases": [
+        "wishbone bush",
+        "suspension arm bush"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-suspension-ball-joint",
+      "category": "Replacement Items",
+      "description": "Suspension ball joint",
+      "aliases": [
+        "lower ball joint"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-track-rod-end",
+      "category": "Replacement Items",
+      "description": "Track rod end",
+      "aliases": [
+        "tie rod end",
+        "steering rod end"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-steering-rack-assembly",
+      "category": "Replacement Items",
+      "description": "Steering rack assembly",
+      "aliases": [
+        "rack and pinion",
+        "power steering rack"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-stabilizer-link",
+      "category": "Replacement Items",
+      "description": "Stabilizer link",
+      "aliases": [
+        "anti roll bar link",
+        "sway bar link"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-stabilizer-bar-bush",
+      "category": "Replacement Items",
+      "description": "Stabilizer bar bush",
+      "aliases": [
+        "anti roll bar bush",
+        "sway bar bush"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-wheel-bearing",
+      "category": "Replacement Items",
+      "description": "Wheel bearing",
+      "aliases": [
+        "hub bearing"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-wheel-hub-assembly",
+      "category": "Replacement Items",
+      "description": "Wheel hub assembly",
+      "aliases": [
+        "hub assembly"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-constant-velocity-joint",
+      "category": "Replacement Items",
+      "description": "Constant velocity joint",
+      "aliases": [
+        "CV joint",
+        "drive shaft joint"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rep-driveshaft-joint-boot",
+      "category": "Replacement Items",
+      "description": "Driveshaft joint boot",
+      "aliases": [
+        "CV boot",
+        "drive shaft gaiter"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "rfi-bumper-cover",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit bumper cover",
+      "aliases": [
+        "bumper R&I",
+        "bumper R&R"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-bumper-reinforcement",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit bumper reinforcement",
+      "aliases": [
+        "bumper beam removal",
+        "crash bar removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-radiator-grille",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit radiator grille",
+      "aliases": [
+        "grill removal",
+        "grille R&I"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-bonnet",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit bonnet",
+      "aliases": [
+        "hood removal",
+        "bonnet R&I"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-bonnet-latch",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit bonnet latch",
+      "aliases": [
+        "hood lock removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-fender",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit fender",
+      "aliases": [
+        "wing removal",
+        "mudguard removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-fender-liner",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit fender liner",
+      "aliases": [
+        "wheel arch liner removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-door-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit door assembly",
+      "aliases": [
+        "door removal",
+        "door R&I"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-door-trim-panel",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit door trim panel",
+      "aliases": [
+        "door card removal",
+        "door lining removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-door-weatherstrip",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit door weatherstrip",
+      "aliases": [
+        "door seal removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-window-regulator",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit window regulator",
+      "aliases": [
+        "window lifter removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-window-motor",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit window motor",
+      "aliases": [
+        "power window motor removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-door-latch",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit door latch",
+      "aliases": [
+        "door lock latch removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-door-handle",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit door handle",
+      "aliases": [
+        "door handle removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-door-mirror",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit door mirror",
+      "aliases": [
+        "side mirror removal",
+        "wing mirror removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-windscreen",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit windscreen",
+      "aliases": [
+        "windshield removal",
+        "screen glass removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-door-glass",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit door glass",
+      "aliases": [
+        "side window glass removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-quarter-glass",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit quarter glass",
+      "aliases": [
+        "fixed side glass removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-tailgate",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit tailgate",
+      "aliases": [
+        "hatch door removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-boot-lid",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit boot lid",
+      "aliases": [
+        "trunk lid removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-luggage-compartment-trim",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit luggage compartment trim",
+      "aliases": [
+        "boot lining removal",
+        "trunk trim removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-roof-lining",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit roof lining",
+      "aliases": [
+        "headlining removal",
+        "headliner removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-sunroof-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit sunroof assembly",
+      "aliases": [
+        "sun roof removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-dashboard",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit dashboard",
+      "aliases": [
+        "dash panel removal",
+        "instrument panel removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-instrument-cluster",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit instrument cluster",
+      "aliases": [
+        "meter panel removal",
+        "speedometer cluster removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-glovebox",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit glovebox",
+      "aliases": [
+        "glove compartment removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-centre-console",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit centre console",
+      "aliases": [
+        "center console removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-seat-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit seat assembly",
+      "aliases": [
+        "seat removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-seat-belt-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit seat belt assembly",
+      "aliases": [
+        "safety belt removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-floor-carpet",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit floor carpet",
+      "aliases": [
+        "interior carpet removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-steering-wheel",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit steering wheel",
+      "aliases": [
+        "steering wheel removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-steering-column",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit steering column",
+      "aliases": [
+        "steering column removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-airbag-module",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit airbag module",
+      "aliases": [
+        "SRS module removal",
+        "air bag removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-headlamp-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit headlamp assembly",
+      "aliases": [
+        "head light removal",
+        "headlight removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-tail-lamp-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit tail lamp assembly",
+      "aliases": [
+        "tail light removal",
+        "taillight removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-fog-lamp-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit fog lamp assembly",
+      "aliases": [
+        "fog light removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-turn-indicator-lamp",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit turn indicator lamp",
+      "aliases": [
+        "turn signal removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-number-plate-lamp",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit number plate lamp",
+      "aliases": [
+        "licence plate light removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-wiper-motor",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit wiper motor",
+      "aliases": [
+        "windscreen wiper motor removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-wiper-linkage",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit wiper linkage",
+      "aliases": [
+        "wiper mechanism removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-wiper-arm",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit wiper arm",
+      "aliases": [
+        "wiper arm removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-washer-reservoir",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit washer reservoir",
+      "aliases": [
+        "washer bottle removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-washer-pump",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit washer pump",
+      "aliases": [
+        "screen wash pump removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-radiator",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit radiator",
+      "aliases": [
+        "radiator removal",
+        "radiator R&I"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-cooling-fan-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit cooling fan assembly",
+      "aliases": [
+        "radiator fan removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-coolant-expansion-tank",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit coolant expansion tank",
+      "aliases": [
+        "coolant reservoir removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-thermostat-housing",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit thermostat housing",
+      "aliases": [
+        "coolant thermostat housing removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-water-pump",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit water pump",
+      "aliases": [
+        "coolant pump removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-air-conditioning-condenser",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit air-conditioning condenser",
+      "aliases": [
+        "AC condenser removal",
+        "aircon condenser removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-air-conditioning-compressor",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit air-conditioning compressor",
+      "aliases": [
+        "AC compressor removal",
+        "aircon compressor removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-air-conditioning-evaporator",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit air-conditioning evaporator",
+      "aliases": [
+        "AC evaporator removal",
+        "cooling coil removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-air-conditioning-receiver-drier",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit air-conditioning receiver-drier",
+      "aliases": [
+        "AC drier removal",
+        "receiver dryer removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-cabin-blower-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit cabin blower assembly",
+      "aliases": [
+        "heater fan removal",
+        "AC blower removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-heater-core",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit heater core",
+      "aliases": [
+        "heater matrix removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-hvac-heater-box",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit HVAC heater box",
+      "aliases": [
+        "air conditioning housing removal",
+        "heater housing removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-air-filter-housing",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit air filter housing",
+      "aliases": [
+        "air cleaner box removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-air-intake-duct",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit air intake duct",
+      "aliases": [
+        "intake hose removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-intake-manifold",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit intake manifold",
+      "aliases": [
+        "inlet manifold removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-exhaust-manifold",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit exhaust manifold",
+      "aliases": [
+        "exhaust header removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-throttle-body",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit throttle body",
+      "aliases": [
+        "throttle housing removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-fuel-rail",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit fuel rail",
+      "aliases": [
+        "injector rail removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-fuel-injector",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit fuel injector",
+      "aliases": [
+        "injector removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-fuel-pump-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit fuel pump assembly",
+      "aliases": [
+        "fuel pump module removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-fuel-tank",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit fuel tank",
+      "aliases": [
+        "petrol tank removal",
+        "diesel tank removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-engine-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit engine assembly",
+      "aliases": [
+        "engine removal",
+        "engine R&I"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-gearbox-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit gearbox assembly",
+      "aliases": [
+        "transmission removal",
+        "gearbox R&I"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-engine-mounting",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit engine mounting",
+      "aliases": [
+        "engine mount removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-transmission-mounting",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit transmission mounting",
+      "aliases": [
+        "gearbox mount removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-timing-cover",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit timing cover",
+      "aliases": [
+        "cam belt cover removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-camshaft-cover",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit camshaft cover",
+      "aliases": [
+        "rocker cover removal",
+        "valve cover removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-engine-oil-sump",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit engine oil sump",
+      "aliases": [
+        "oil pan removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-starter-motor",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit starter motor",
+      "aliases": [
+        "starter removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-alternator",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit alternator",
+      "aliases": [
+        "charging alternator removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-vehicle-battery",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit vehicle battery",
+      "aliases": [
+        "battery removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-battery-tray",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit battery tray",
+      "aliases": [
+        "battery carrier removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-engine-undertray",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit engine undertray",
+      "aliases": [
+        "engine splash shield removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-exhaust-system",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit exhaust system",
+      "aliases": [
+        "exhaust pipe removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-catalytic-converter",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit catalytic converter",
+      "aliases": [
+        "catalyst removal",
+        "cat converter removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-exhaust-muffler",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit exhaust muffler",
+      "aliases": [
+        "silencer removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-propeller-shaft",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit propeller shaft",
+      "aliases": [
+        "prop shaft removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-driveshaft",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit driveshaft",
+      "aliases": [
+        "drive shaft removal",
+        "half shaft removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-constant-velocity-joint",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit constant velocity joint",
+      "aliases": [
+        "CV joint removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-differential-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit differential assembly",
+      "aliases": [
+        "diff removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-transfer-case",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit transfer case",
+      "aliases": [
+        "transfer box removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-clutch-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit clutch assembly",
+      "aliases": [
+        "clutch removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-flywheel",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit flywheel",
+      "aliases": [
+        "flywheel removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-brake-caliper",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit brake caliper",
+      "aliases": [
+        "caliper removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-brake-disc",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit brake disc",
+      "aliases": [
+        "brake rotor removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-brake-drum",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit brake drum",
+      "aliases": [
+        "drum brake housing removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-brake-master-cylinder",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit brake master cylinder",
+      "aliases": [
+        "master brake cylinder removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-abs-hydraulic-modulator",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit ABS hydraulic modulator",
+      "aliases": [
+        "ABS pump removal",
+        "ABS hydraulic unit removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-pedal-box-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit pedal box assembly",
+      "aliases": [
+        "pedal assembly removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-suspension-strut",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit suspension strut",
+      "aliases": [
+        "strut assembly removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-suspension-control-arm",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit suspension control arm",
+      "aliases": [
+        "wishbone removal",
+        "lower arm removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-steering-rack",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit steering rack",
+      "aliases": [
+        "rack and pinion removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-stabilizer-bar",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit stabilizer bar",
+      "aliases": [
+        "anti roll bar removal",
+        "sway bar removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-wheel-hub-assembly",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit wheel hub assembly",
+      "aliases": [
+        "hub assembly removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-subframe",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit subframe",
+      "aliases": [
+        "suspension crossmember removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-axle-beam",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit axle beam",
+      "aliases": [
+        "axle assembly removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "rfi-engine-wiring-harness",
+      "category": "Removal & Refitting Items",
+      "description": "Remove and refit engine wiring harness",
+      "aliases": [
+        "engine loom removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-bumper-plastic-welding",
+      "category": "Repair Items",
+      "description": "Bumper plastic welding",
+      "aliases": [
+        "bumper crack repair",
+        "plastic bumper"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-bumper-mounting-tab-repair",
+      "category": "Repair Items",
+      "description": "Bumper mounting-tab repair",
+      "aliases": [
+        "bumper lug repair",
+        "bumper bracket repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-headlamp-mounting-tab-repair",
+      "category": "Repair Items",
+      "description": "Headlamp mounting-tab repair",
+      "aliases": [
+        "head light bracket",
+        "headlight lug"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-lamp-lens-restoration",
+      "category": "Repair Items",
+      "description": "Lamp lens restoration",
+      "aliases": [
+        "headlight lens",
+        "head light restoration"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-grille-crack-repair",
+      "category": "Repair Items",
+      "description": "Grille crack repair",
+      "aliases": [
+        "radiator grille",
+        "grill repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-mirror-housing-repair",
+      "category": "Repair Items",
+      "description": "Mirror housing repair",
+      "aliases": [
+        "wing mirror",
+        "side mirror casing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-window-regulator-repair",
+      "category": "Repair Items",
+      "description": "Window regulator repair",
+      "aliases": [
+        "power window mechanism",
+        "window lifter"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-door-latch-repair",
+      "category": "Repair Items",
+      "description": "Door latch repair",
+      "aliases": [
+        "door lock mechanism"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-door-hinge-repair",
+      "category": "Repair Items",
+      "description": "Door hinge repair",
+      "aliases": [
+        "hinge pin",
+        "bush repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-door-striker-adjustment",
+      "category": "Repair Items",
+      "description": "Door striker adjustment",
+      "aliases": [
+        "door catch adjustment"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-bonnet-latch-repair",
+      "category": "Repair Items",
+      "description": "Bonnet latch repair",
+      "aliases": [
+        "hood latch",
+        "bonnet catch"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-boot-latch-repair",
+      "category": "Repair Items",
+      "description": "Boot latch repair",
+      "aliases": [
+        "trunk latch",
+        "boot lock"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-paintless-dent-removal",
+      "category": "Repair Items",
+      "description": "Paintless dent removal",
+      "aliases": [
+        "pdr",
+        "dent removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-panel-hammer-and-dolly-repair",
+      "category": "Repair Items",
+      "description": "Panel hammer-and-dolly repair",
+      "aliases": [
+        "panel beating",
+        "metal shaping"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-stud-weld-dent-pulling",
+      "category": "Repair Items",
+      "description": "Stud-weld dent pulling",
+      "aliases": [
+        "dent puller",
+        "spotter dent repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-floor-panel-straightening",
+      "category": "Repair Items",
+      "description": "Floor-panel straightening",
+      "aliases": [
+        "floor pan repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-chassis-rail-straightening",
+      "category": "Repair Items",
+      "description": "Chassis-rail straightening",
+      "aliases": [
+        "frame rail repair",
+        "chassis alignment repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-body-seam-welding-repair",
+      "category": "Repair Items",
+      "description": "Body-seam welding repair",
+      "aliases": [
+        "body weld",
+        "seam weld repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-sill-corrosion-repair",
+      "category": "Repair Items",
+      "description": "Sill corrosion repair",
+      "aliases": [
+        "rocker panel rust repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-wheel-arch-corrosion-repair",
+      "category": "Repair Items",
+      "description": "Wheel-arch corrosion repair",
+      "aliases": [
+        "arch rust repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-door-frame-alignment-repair",
+      "category": "Repair Items",
+      "description": "Door-frame alignment repair",
+      "aliases": [
+        "door opening alignment"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-bonnet-alignment-repair",
+      "category": "Repair Items",
+      "description": "Bonnet alignment repair",
+      "aliases": [
+        "hood alignment"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-tailgate-alignment-repair",
+      "category": "Repair Items",
+      "description": "Tailgate alignment repair",
+      "aliases": [
+        "hatch alignment"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-sunroof-drain-leak-repair",
+      "category": "Repair Items",
+      "description": "Sunroof drain leak repair",
+      "aliases": [
+        "sun roof drainage"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-windscreen-water-leak-repair",
+      "category": "Repair Items",
+      "description": "Windscreen water-leak repair",
+      "aliases": [
+        "windshield leak",
+        "screen reseal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-weatherstrip-sealing-repair",
+      "category": "Repair Items",
+      "description": "Weatherstrip sealing repair",
+      "aliases": [
+        "rubber seal repair",
+        "door seal leak"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-bumper-mounting-alignment-repair",
+      "category": "Repair Items",
+      "description": "Bumper mounting alignment repair",
+      "aliases": [
+        "bumper fit adjustment"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-interior-trim-crack-repair",
+      "category": "Repair Items",
+      "description": "Interior trim crack repair",
+      "aliases": [
+        "dashboard trim",
+        "panel crack"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-upholstery-seam-repair",
+      "category": "Repair Items",
+      "description": "Upholstery seam repair",
+      "aliases": [
+        "seat stitching",
+        "seat cover seam"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-seat-frame-welding-repair",
+      "category": "Repair Items",
+      "description": "Seat-frame welding repair",
+      "aliases": [
+        "seat structure repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-engine-oil-seal-leak-repair",
+      "category": "Repair Items",
+      "description": "Engine oil-seal leak repair",
+      "aliases": [
+        "engine oil leak",
+        "shaft seal leak"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-valve-cover-leak-repair",
+      "category": "Repair Items",
+      "description": "Valve-cover leak repair",
+      "aliases": [
+        "rocker cover gasket leak"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-oil-pan-leak-repair",
+      "category": "Repair Items",
+      "description": "Oil-pan leak repair",
+      "aliases": [
+        "sump leak",
+        "oil sump reseal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-timing-cover-leak-repair",
+      "category": "Repair Items",
+      "description": "Timing-cover leak repair",
+      "aliases": [
+        "timing case reseal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-cooling-hose-joint-leak-repair",
+      "category": "Repair Items",
+      "description": "Cooling-hose joint leak repair",
+      "aliases": [
+        "coolant hose leak"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-radiator-leak-repair",
+      "category": "Repair Items",
+      "description": "Radiator leak repair",
+      "aliases": [
+        "radiator soldering",
+        "cooling radiator"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-coolant-pipe-leak-repair",
+      "category": "Repair Items",
+      "description": "Coolant-pipe leak repair",
+      "aliases": [
+        "water pipe leak"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-expansion-tank-mounting-repair",
+      "category": "Repair Items",
+      "description": "Expansion-tank mounting repair",
+      "aliases": [
+        "coolant reservoir bracket"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-exhaust-pipe-welding-repair",
+      "category": "Repair Items",
+      "description": "Exhaust-pipe welding repair",
+      "aliases": [
+        "exhaust leak welding"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-silencer-casing-repair",
+      "category": "Repair Items",
+      "description": "Silencer casing repair",
+      "aliases": [
+        "muffler repair",
+        "silencer leak"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-exhaust-hanger-mounting-repair",
+      "category": "Repair Items",
+      "description": "Exhaust hanger mounting repair",
+      "aliases": [
+        "exhaust support repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-intake-manifold-air-leak-repair",
+      "category": "Repair Items",
+      "description": "Intake-manifold air-leak repair",
+      "aliases": [
+        "inlet manifold leak"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-vacuum-line-leak-repair",
+      "category": "Repair Items",
+      "description": "Vacuum-line leak repair",
+      "aliases": [
+        "vacuum hose repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-throttle-body-mechanism-repair",
+      "category": "Repair Items",
+      "description": "Throttle-body mechanism repair",
+      "aliases": [
+        "throttle valve repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-fuel-injector-seal-leak-repair",
+      "category": "Repair Items",
+      "description": "Fuel-injector seal leak repair",
+      "aliases": [
+        "injector o-ring leak"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-fuel-line-leak-repair",
+      "category": "Repair Items",
+      "description": "Fuel-line leak repair",
+      "aliases": [
+        "fuel pipe repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-fuel-pump-electrical-repair",
+      "category": "Repair Items",
+      "description": "Fuel-pump electrical repair",
+      "aliases": [
+        "fuel pump wiring"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-clutch-hydraulic-leak-repair",
+      "category": "Repair Items",
+      "description": "Clutch hydraulic leak repair",
+      "aliases": [
+        "clutch slave cylinder leak"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-gear-selector-linkage-repair",
+      "category": "Repair Items",
+      "description": "Gear-selector linkage repair",
+      "aliases": [
+        "gear cable",
+        "shift linkage"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-transmission-oil-leak-repair",
+      "category": "Repair Items",
+      "description": "Transmission oil-leak repair",
+      "aliases": [
+        "gearbox oil leak",
+        "transmission reseal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-driveshaft-cv-joint-overhaul",
+      "category": "Repair Items",
+      "description": "Driveshaft CV-joint overhaul",
+      "aliases": [
+        "constant velocity joint",
+        "cv joint repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-differential-oil-leak-repair",
+      "category": "Repair Items",
+      "description": "Differential oil-leak repair",
+      "aliases": [
+        "axle differential reseal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-propeller-shaft-joint-repair",
+      "category": "Repair Items",
+      "description": "Propeller-shaft joint repair",
+      "aliases": [
+        "prop shaft",
+        "u joint repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-wheel-bearing-housing-repair",
+      "category": "Repair Items",
+      "description": "Wheel-bearing housing repair",
+      "aliases": [
+        "hub bearing seat repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-strut-mounting-repair",
+      "category": "Repair Items",
+      "description": "Strut mounting repair",
+      "aliases": [
+        "suspension strut mount"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-shock-absorber-mounting-repair",
+      "category": "Repair Items",
+      "description": "Shock-absorber mounting repair",
+      "aliases": [
+        "shock mount repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-control-arm-mounting-repair",
+      "category": "Repair Items",
+      "description": "Control-arm mounting repair",
+      "aliases": [
+        "wishbone mounting repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-stabilizer-mounting-repair",
+      "category": "Repair Items",
+      "description": "Stabilizer mounting repair",
+      "aliases": [
+        "anti roll bar mount",
+        "sway bar mount"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-steering-rack-leak-repair",
+      "category": "Repair Items",
+      "description": "Steering-rack leak repair",
+      "aliases": [
+        "steering rack overhaul"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-power-steering-hose-leak-repair",
+      "category": "Repair Items",
+      "description": "Power-steering hose leak repair",
+      "aliases": [
+        "hydraulic steering hose"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-steering-column-joint-repair",
+      "category": "Repair Items",
+      "description": "Steering-column joint repair",
+      "aliases": [
+        "column universal joint"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-brake-servo-vacuum-leak-repair",
+      "category": "Repair Items",
+      "description": "Brake-servo vacuum-leak repair",
+      "aliases": [
+        "brake booster vacuum"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-brake-caliper-overhaul",
+      "category": "Repair Items",
+      "description": "Brake-caliper overhaul",
+      "aliases": [
+        "caliper rebuild"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-brake-wheel-cylinder-overhaul",
+      "category": "Repair Items",
+      "description": "Brake wheel-cylinder overhaul",
+      "aliases": [
+        "drum brake cylinder repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-brake-pipe-flare-repair",
+      "category": "Repair Items",
+      "description": "Brake-pipe flare repair",
+      "aliases": [
+        "brake line flaring"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-brake-master-cylinder-overhaul",
+      "category": "Repair Items",
+      "description": "Brake master-cylinder overhaul",
+      "aliases": [
+        "master cylinder rebuild"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-handbrake-mechanism-repair",
+      "category": "Repair Items",
+      "description": "Handbrake mechanism repair",
+      "aliases": [
+        "parking brake mechanism"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-abs-wiring-repair",
+      "category": "Repair Items",
+      "description": "ABS wiring repair",
+      "aliases": [
+        "anti lock brake wiring"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-parking-brake-switch-repair",
+      "category": "Repair Items",
+      "description": "Parking-brake switch repair",
+      "aliases": [
+        "handbrake switch circuit"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-starter-motor-overhaul",
+      "category": "Repair Items",
+      "description": "Starter-motor overhaul",
+      "aliases": [
+        "starter rebuild",
+        "self starter repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-alternator-overhaul",
+      "category": "Repair Items",
+      "description": "Alternator overhaul",
+      "aliases": [
+        "charging alternator rebuild"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-battery-terminal-connection-repair",
+      "category": "Repair Items",
+      "description": "Battery-terminal connection repair",
+      "aliases": [
+        "battery clamp connection"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-earth-cable-connection-repair",
+      "category": "Repair Items",
+      "description": "Earth-cable connection repair",
+      "aliases": [
+        "ground cable",
+        "grounding repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-charging-harness-repair",
+      "category": "Repair Items",
+      "description": "Charging-harness repair",
+      "aliases": [
+        "charging wire repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-engine-wiring-harness-repair",
+      "category": "Repair Items",
+      "description": "Engine wiring-harness repair",
+      "aliases": [
+        "engine loom repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-lighting-wiring-harness-repair",
+      "category": "Repair Items",
+      "description": "Lighting wiring-harness repair",
+      "aliases": [
+        "lighting loom repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-headlamp-circuit-repair",
+      "category": "Repair Items",
+      "description": "Headlamp circuit repair",
+      "aliases": [
+        "head light wiring",
+        "headlight circuit"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-tail-lamp-circuit-repair",
+      "category": "Repair Items",
+      "description": "Tail-lamp circuit repair",
+      "aliases": [
+        "tail light wiring",
+        "rear light circuit"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-horn-circuit-repair",
+      "category": "Repair Items",
+      "description": "Horn circuit repair",
+      "aliases": [
+        "horn wiring",
+        "horn relay circuit"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-wiper-motor-mechanism-repair",
+      "category": "Repair Items",
+      "description": "Wiper-motor mechanism repair",
+      "aliases": [
+        "windscreen wiper drive"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-windscreen-washer-system-repair",
+      "category": "Repair Items",
+      "description": "Windscreen washer-system repair",
+      "aliases": [
+        "washer pump circuit",
+        "screen wash"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-cooling-fan-circuit-repair",
+      "category": "Repair Items",
+      "description": "Cooling-fan circuit repair",
+      "aliases": [
+        "radiator fan wiring"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-power-window-motor-repair",
+      "category": "Repair Items",
+      "description": "Power-window motor repair",
+      "aliases": [
+        "window motor electrical repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-central-locking-actuator-repair",
+      "category": "Repair Items",
+      "description": "Central-locking actuator repair",
+      "aliases": [
+        "door lock actuator"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-remote-key-circuit-repair",
+      "category": "Repair Items",
+      "description": "Remote-key circuit repair",
+      "aliases": [
+        "key fob circuit",
+        "remote soldering"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-instrument-cluster-circuit-repair",
+      "category": "Repair Items",
+      "description": "Instrument-cluster circuit repair",
+      "aliases": [
+        "dashboard meter circuit"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-cabin-blower-motor-repair",
+      "category": "Repair Items",
+      "description": "Cabin-blower motor repair",
+      "aliases": [
+        "heater fan motor",
+        "ac blower"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-air-conditioning-pipe-leak-repair",
+      "category": "Repair Items",
+      "description": "Air-conditioning pipe leak repair",
+      "aliases": [
+        "ac pipe leak",
+        "aircon pipe repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-air-conditioning-condenser-mounting-repair",
+      "category": "Repair Items",
+      "description": "Air-conditioning condenser mounting repair",
+      "aliases": [
+        "ac condenser bracket",
+        "aircon mounting"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-air-conditioning-compressor-clutch-repair",
+      "category": "Repair Items",
+      "description": "Air-conditioning compressor-clutch repair",
+      "aliases": [
+        "ac clutch",
+        "aircon compressor clutch"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-heater-core-leak-repair",
+      "category": "Repair Items",
+      "description": "Heater-core leak repair",
+      "aliases": [
+        "heater matrix leak"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-heater-control-cable-repair",
+      "category": "Repair Items",
+      "description": "Heater control-cable repair",
+      "aliases": [
+        "temperature control cable"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-air-vent-mechanism-repair",
+      "category": "Repair Items",
+      "description": "Air-vent mechanism repair",
+      "aliases": [
+        "vent flap",
+        "air outlet repair"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-immobilizer-connector-repair",
+      "category": "Repair Items",
+      "description": "Immobilizer connector repair",
+      "aliases": [
+        "immobiliser wiring connector"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-reversing-camera-wiring-repair",
+      "category": "Repair Items",
+      "description": "Reversing-camera wiring repair",
+      "aliases": [
+        "reverse camera circuit",
+        "backup camera"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-parking-sensor-wiring-repair",
+      "category": "Repair Items",
+      "description": "Parking-sensor wiring repair",
+      "aliases": [
+        "parking assistance circuit"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-trailer-light-connector-repair",
+      "category": "Repair Items",
+      "description": "Trailer-light connector repair",
+      "aliases": [
+        "tow socket wiring"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-door-wiring-flex-repair",
+      "category": "Repair Items",
+      "description": "Door wiring-flex repair",
+      "aliases": [
+        "door loom break",
+        "door harness"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-sunroof-drive-mechanism-repair",
+      "category": "Repair Items",
+      "description": "Sunroof drive-mechanism repair",
+      "aliases": [
+        "sun roof motor drive"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "repair-seat-adjustment-mechanism-repair",
+      "category": "Repair Items",
+      "description": "Seat-adjustment mechanism repair",
+      "aliases": [
+        "seat slider",
+        "seat recliner"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-pre-paint-wash-and-surface-cleaning",
+      "category": "Paint Items",
+      "description": "Pre-paint wash and surface cleaning",
+      "aliases": [
+        "paint preparation wash"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-solvent-degreasing-before-painting",
+      "category": "Paint Items",
+      "description": "Solvent degreasing before painting",
+      "aliases": [
+        "wax and grease remover",
+        "surface degrease"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-silicone-contamination-removal",
+      "category": "Paint Items",
+      "description": "Silicone contamination removal",
+      "aliases": [
+        "fish eye contamination removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-pre-paint-adhesive-residue-removal",
+      "category": "Paint Items",
+      "description": "Pre-paint adhesive-residue removal",
+      "aliases": [
+        "sticker residue",
+        "tar removal preparation"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-mechanical-paint-stripping",
+      "category": "Paint Items",
+      "description": "Mechanical paint stripping",
+      "aliases": [
+        "paint removal sanding"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-chemical-paint-stripping",
+      "category": "Paint Items",
+      "description": "Chemical paint stripping",
+      "aliases": [
+        "chemical stripper"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-abrasive-media-paint-stripping",
+      "category": "Paint Items",
+      "description": "Abrasive-media paint stripping",
+      "aliases": [
+        "media blasting",
+        "grit blasting"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-soda-blast-surface-preparation",
+      "category": "Paint Items",
+      "description": "Soda-blast surface preparation",
+      "aliases": [
+        "soda blasting"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-mechanical-corrosion-removal",
+      "category": "Paint Items",
+      "description": "Mechanical corrosion removal",
+      "aliases": [
+        "rust sanding",
+        "rust grinding"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-rust-converter-treatment",
+      "category": "Paint Items",
+      "description": "Rust-converter treatment",
+      "aliases": [
+        "rust conversion coating"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-bare-steel-metal-conditioning",
+      "category": "Paint Items",
+      "description": "Bare-steel metal conditioning",
+      "aliases": [
+        "steel preparation",
+        "metal treatment"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-aluminium-surface-conditioning",
+      "category": "Paint Items",
+      "description": "Aluminium surface conditioning",
+      "aliases": [
+        "aluminum paint preparation"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-plastic-antistatic-preparation",
+      "category": "Paint Items",
+      "description": "Plastic antistatic preparation",
+      "aliases": [
+        "plastic static removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-plastic-flame-treatment",
+      "category": "Paint Items",
+      "description": "Plastic flame treatment",
+      "aliases": [
+        "plastic adhesion preparation"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-fibreglass-gelcoat-preparation",
+      "category": "Paint Items",
+      "description": "Fibreglass gelcoat preparation",
+      "aliases": [
+        "fiberglass surface prep"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-smc-composite-surface-preparation",
+      "category": "Paint Items",
+      "description": "SMC composite surface preparation",
+      "aliases": [
+        "sheet moulding compound",
+        "composite paint prep"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-flexible-bumper-surface-preparation",
+      "category": "Paint Items",
+      "description": "Flexible-bumper surface preparation",
+      "aliases": [
+        "bumper paint preparation"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-textured-plastic-surface-preparation",
+      "category": "Paint Items",
+      "description": "Textured-plastic surface preparation",
+      "aliases": [
+        "textured trim prep"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-stainless-steel-coating-preparation",
+      "category": "Paint Items",
+      "description": "Stainless-steel coating preparation",
+      "aliases": [
+        "stainless surface scuffing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-galvanized-panel-coating-preparation",
+      "category": "Paint Items",
+      "description": "Galvanized-panel coating preparation",
+      "aliases": [
+        "zinc coated panel prep"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-powder-coated-surface-preparation",
+      "category": "Paint Items",
+      "description": "Powder-coated surface preparation",
+      "aliases": [
+        "powder coat refinishing prep"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-existing-paint-feather-edging",
+      "category": "Paint Items",
+      "description": "Existing-paint feather edging",
+      "aliases": [
+        "paint edge sanding",
+        "featheredge"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-body-filler-shaping",
+      "category": "Paint Items",
+      "description": "Body-filler shaping",
+      "aliases": [
+        "filler rough shaping",
+        "body putty shaping"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-finishing-glaze-application",
+      "category": "Paint Items",
+      "description": "Finishing-glaze application",
+      "aliases": [
+        "fine filler",
+        "glazing putty"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-filler-pinhole-correction",
+      "category": "Paint Items",
+      "description": "Filler pinhole correction",
+      "aliases": [
+        "porosity filling",
+        "pinhole filling"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-reinforced-filler-application",
+      "category": "Paint Items",
+      "description": "Reinforced-filler application",
+      "aliases": [
+        "fibreglass filler",
+        "fiber filler"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-seam-sealer-finishing-preparation",
+      "category": "Paint Items",
+      "description": "Seam-sealer finishing preparation",
+      "aliases": [
+        "sealer smoothing before paint"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-stone-chip-texture-matching",
+      "category": "Paint Items",
+      "description": "Stone-chip texture matching",
+      "aliases": [
+        "chip guard texture matching"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-sanding-guide-coat-application",
+      "category": "Paint Items",
+      "description": "Sanding guide-coat application",
+      "aliases": [
+        "guidecoat",
+        "guide coat"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-dry-block-sanding",
+      "category": "Paint Items",
+      "description": "Dry block sanding",
+      "aliases": [
+        "dry flatting",
+        "block sand"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-wet-block-sanding",
+      "category": "Paint Items",
+      "description": "Wet block sanding",
+      "aliases": [
+        "wet flatting",
+        "wet sand"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-panel-edge-sanding",
+      "category": "Paint Items",
+      "description": "Panel-edge sanding",
+      "aliases": [
+        "edge preparation"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-primer-de-nibbing",
+      "category": "Paint Items",
+      "description": "Primer de-nibbing",
+      "aliases": [
+        "primer dust removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-colour-blend-area-preparation",
+      "category": "Paint Items",
+      "description": "Colour-blend area preparation",
+      "aliases": [
+        "blend panel scuffing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-glass-masking-for-refinishing",
+      "category": "Paint Items",
+      "description": "Glass masking for refinishing",
+      "aliases": [
+        "window masking",
+        "screen masking"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-fine-line-trim-edge-masking",
+      "category": "Paint Items",
+      "description": "Fine-line trim-edge masking",
+      "aliases": [
+        "edge masking",
+        "fine line tape"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-aperture-foam-masking",
+      "category": "Paint Items",
+      "description": "Aperture foam masking",
+      "aliases": [
+        "door aperture masking",
+        "foam tape"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-engine-bay-masking",
+      "category": "Paint Items",
+      "description": "Engine-bay masking",
+      "aliases": [
+        "engine compartment masking"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-tyre-masking-for-wheel-refinishing",
+      "category": "Paint Items",
+      "description": "Tyre masking for wheel refinishing",
+      "aliases": [
+        "tire masking",
+        "wheel masking"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-two-tone-paint-layout-masking",
+      "category": "Paint Items",
+      "description": "Two-tone paint layout masking",
+      "aliases": [
+        "two colour layout",
+        "two color masking"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-paint-stencil-layout-preparation",
+      "category": "Paint Items",
+      "description": "Paint-stencil layout preparation",
+      "aliases": [
+        "graphics masking",
+        "stencil positioning"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-etch-primer-application",
+      "category": "Paint Items",
+      "description": "Etch-primer application",
+      "aliases": [
+        "acid etch primer"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-epoxy-primer-application",
+      "category": "Paint Items",
+      "description": "Epoxy-primer application",
+      "aliases": [
+        "epoxy primer"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-plastic-adhesion-promoter-application",
+      "category": "Paint Items",
+      "description": "Plastic adhesion-promoter application",
+      "aliases": [
+        "plastic primer",
+        "adhesion promoter"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-two-pack-primer-surfacer-application",
+      "category": "Paint Items",
+      "description": "Two-pack primer-surfacer application",
+      "aliases": [
+        "2k primer",
+        "high build primer"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-polyester-spray-filler-application",
+      "category": "Paint Items",
+      "description": "Polyester spray-filler application",
+      "aliases": [
+        "spray putty",
+        "spray filler"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-wet-on-wet-sealer-application",
+      "category": "Paint Items",
+      "description": "Wet-on-wet sealer application",
+      "aliases": [
+        "non sanding sealer"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-bare-metal-spot-priming",
+      "category": "Paint Items",
+      "description": "Bare-metal spot priming",
+      "aliases": [
+        "spot primer",
+        "exposed metal primer"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-isolator-coat-application",
+      "category": "Paint Items",
+      "description": "Isolator-coat application",
+      "aliases": [
+        "barrier coat",
+        "paint isolation"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-primer-shade-groundcoat-application",
+      "category": "Paint Items",
+      "description": "Primer-shade groundcoat application",
+      "aliases": [
+        "ground coat",
+        "undercoat colour"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-spectrophotometer-colour-matching",
+      "category": "Paint Items",
+      "description": "Spectrophotometer colour matching",
+      "aliases": [
+        "paint scan",
+        "colour scan",
+        "color matching"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-paint-spray-out-evaluation",
+      "category": "Paint Items",
+      "description": "Paint spray-out evaluation",
+      "aliases": [
+        "spray out card",
+        "colour test card"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-manual-paint-tint-adjustment",
+      "category": "Paint Items",
+      "description": "Manual paint-tint adjustment",
+      "aliases": [
+        "paint tinting",
+        "colour formulation"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-solid-colour-refinishing",
+      "category": "Paint Items",
+      "description": "Solid-colour refinishing",
+      "aliases": [
+        "solid color painting",
+        "solid basecoat"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-metallic-basecoat-refinishing",
+      "category": "Paint Items",
+      "description": "Metallic-basecoat refinishing",
+      "aliases": [
+        "metallic painting"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-three-stage-pearl-refinishing",
+      "category": "Paint Items",
+      "description": "Three-stage pearl refinishing",
+      "aliases": [
+        "tri coat",
+        "pearlescent painting"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-candy-colour-refinishing",
+      "category": "Paint Items",
+      "description": "Candy-colour refinishing",
+      "aliases": [
+        "candy paint",
+        "transparent colour coat"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-tinted-clearcoat-refinishing",
+      "category": "Paint Items",
+      "description": "Tinted-clearcoat refinishing",
+      "aliases": [
+        "coloured clear coat"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-matte-finish-refinishing",
+      "category": "Paint Items",
+      "description": "Matte-finish refinishing",
+      "aliases": [
+        "matt paint",
+        "flat finish"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-satin-finish-refinishing",
+      "category": "Paint Items",
+      "description": "Satin-finish refinishing",
+      "aliases": [
+        "satin paint"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-textured-finish-coating-application",
+      "category": "Paint Items",
+      "description": "Textured-finish coating application",
+      "aliases": [
+        "texture paint"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-metal-flake-finish-application",
+      "category": "Paint Items",
+      "description": "Metal-flake finish application",
+      "aliases": [
+        "flake paint",
+        "custom flake finish"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-metallic-orientation-correction",
+      "category": "Paint Items",
+      "description": "Metallic orientation correction",
+      "aliases": [
+        "metallic mottling correction",
+        "drop coat"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-adjacent-panel-colour-blending",
+      "category": "Paint Items",
+      "description": "Adjacent-panel colour blending",
+      "aliases": [
+        "paint blending",
+        "colour fade"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-clearcoat-edge-blending",
+      "category": "Paint Items",
+      "description": "Clearcoat edge blending",
+      "aliases": [
+        "clear coat fade out"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-full-panel-clearcoat-application",
+      "category": "Paint Items",
+      "description": "Full-panel clearcoat application",
+      "aliases": [
+        "panel clear coat",
+        "lacquer application"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-high-solids-clearcoat-application",
+      "category": "Paint Items",
+      "description": "High-solids clearcoat application",
+      "aliases": [
+        "hs clear coat"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-scratch-resistant-clearcoat-application",
+      "category": "Paint Items",
+      "description": "Scratch-resistant clearcoat application",
+      "aliases": [
+        "anti scratch clear"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-flexible-plastic-clearcoat-application",
+      "category": "Paint Items",
+      "description": "Flexible-plastic clearcoat application",
+      "aliases": [
+        "flexible clear coat",
+        "plastic clear"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-uv-cured-clearcoat-application",
+      "category": "Paint Items",
+      "description": "UV-cured clearcoat application",
+      "aliases": [
+        "uv clear coat"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-steel-wheel-refinishing",
+      "category": "Paint Items",
+      "description": "Steel-wheel refinishing",
+      "aliases": [
+        "steel rim painting"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-alloy-wheel-refinishing",
+      "category": "Paint Items",
+      "description": "Alloy-wheel refinishing",
+      "aliases": [
+        "alloy rim painting"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-machined-wheel-clear-coating",
+      "category": "Paint Items",
+      "description": "Machined-wheel clear coating",
+      "aliases": [
+        "diamond cut wheel clearcoat"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-brake-caliper-heat-resistant-coating",
+      "category": "Paint Items",
+      "description": "Brake-caliper heat-resistant coating",
+      "aliases": [
+        "caliper painting"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-exhaust-heat-resistant-coating",
+      "category": "Paint Items",
+      "description": "Exhaust heat-resistant coating",
+      "aliases": [
+        "high temperature exhaust paint"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-engine-component-refinishing",
+      "category": "Paint Items",
+      "description": "Engine-component refinishing",
+      "aliases": [
+        "engine parts painting"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-engine-bay-refinishing",
+      "category": "Paint Items",
+      "description": "Engine-bay refinishing",
+      "aliases": [
+        "engine compartment painting"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-underbody-protective-coating",
+      "category": "Paint Items",
+      "description": "Underbody protective coating",
+      "aliases": [
+        "underbody paint",
+        "underseal application"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-cavity-wax-corrosion-protection",
+      "category": "Paint Items",
+      "description": "Cavity-wax corrosion protection",
+      "aliases": [
+        "cavity coating",
+        "wax injection"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-paintable-seam-sealer-application",
+      "category": "Paint Items",
+      "description": "Paintable seam-sealer application",
+      "aliases": [
+        "body seam sealing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-stone-chip-protective-coating",
+      "category": "Paint Items",
+      "description": "Stone-chip protective coating",
+      "aliases": [
+        "chip guard application",
+        "anti chip coating"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-load-bed-protective-lining",
+      "category": "Paint Items",
+      "description": "Load-bed protective lining",
+      "aliases": [
+        "bed liner",
+        "pickup bed coating"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-exterior-plastic-texture-restoration",
+      "category": "Paint Items",
+      "description": "Exterior-plastic texture restoration",
+      "aliases": [
+        "plastic texture coating"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-rubberized-sound-deadening-coating",
+      "category": "Paint Items",
+      "description": "Rubberized sound-deadening coating",
+      "aliases": [
+        "rubberised coating",
+        "sound damping paint"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-zinc-rich-corrosion-protection-coating",
+      "category": "Paint Items",
+      "description": "Zinc-rich corrosion-protection coating",
+      "aliases": [
+        "zinc primer treatment"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-panel-back-corrosion-protection-coating",
+      "category": "Paint Items",
+      "description": "Panel-back corrosion-protection coating",
+      "aliases": [
+        "inside panel protective paint"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-painted-coachline-application",
+      "category": "Paint Items",
+      "description": "Painted coachline application",
+      "aliases": [
+        "pinstripe painting",
+        "coach line"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-custom-stencil-graphic-painting",
+      "category": "Paint Items",
+      "description": "Custom stencil-graphic painting",
+      "aliases": [
+        "painted graphics",
+        "stencil artwork"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-gelcoat-refinishing",
+      "category": "Paint Items",
+      "description": "Gelcoat refinishing",
+      "aliases": [
+        "fibreglass gelcoat refinishing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-composite-panel-clear-coating",
+      "category": "Paint Items",
+      "description": "Composite-panel clear coating",
+      "aliases": [
+        "carbon panel clearcoat",
+        "composite lacquer"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-uv-lamp-paint-curing",
+      "category": "Paint Items",
+      "description": "UV-lamp paint curing",
+      "aliases": [
+        "ultraviolet curing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-infrared-paint-curing",
+      "category": "Paint Items",
+      "description": "Infrared paint curing",
+      "aliases": [
+        "ir curing",
+        "infra red drying"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-spray-booth-bake-curing",
+      "category": "Paint Items",
+      "description": "Spray-booth bake curing",
+      "aliases": [
+        "oven curing",
+        "booth bake"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-refinished-surface-de-nibbing",
+      "category": "Paint Items",
+      "description": "Refinished-surface de-nibbing",
+      "aliases": [
+        "paint dust nib removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-orange-peel-texture-levelling",
+      "category": "Paint Items",
+      "description": "Orange-peel texture levelling",
+      "aliases": [
+        "orange peel correction"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-localized-clearcoat-defect-flatting",
+      "category": "Paint Items",
+      "description": "Localized clearcoat defect flatting",
+      "aliases": [
+        "clear coat spot sanding"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-paint-run-and-sag-correction",
+      "category": "Paint Items",
+      "description": "Paint-run and sag correction",
+      "aliases": [
+        "paint run removal",
+        "sag removal"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-cutting-compound-finishing",
+      "category": "Paint Items",
+      "description": "Cutting-compound finishing",
+      "aliases": [
+        "compound polishing",
+        "cut polish"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-final-finishing-polish",
+      "category": "Paint Items",
+      "description": "Final finishing polish",
+      "aliases": [
+        "paint finish polish"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "paint-polishing-hologram-removal",
+      "category": "Paint Items",
+      "description": "Polishing-hologram removal",
+      "aliases": [
+        "swirl finishing",
+        "hologram correction"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "misc-automotive-masking-tape",
+      "category": "Miscellaneous Items",
+      "description": "Automotive masking tape",
+      "aliases": [
+        "paint masking tape"
+      ],
+      "unit": "roll",
+      "active": true
+    },
+    {
+      "id": "misc-fine-line-masking-tape",
+      "category": "Miscellaneous Items",
+      "description": "Fine-line masking tape",
+      "aliases": [
+        "fineline tape"
+      ],
+      "unit": "roll",
+      "active": true
+    },
+    {
+      "id": "misc-foam-aperture-masking-tape",
+      "category": "Miscellaneous Items",
+      "description": "Foam aperture masking tape",
+      "aliases": [
+        "door gap masking tape"
+      ],
+      "unit": "roll",
+      "active": true
+    },
+    {
+      "id": "misc-masking-film",
+      "category": "Miscellaneous Items",
+      "description": "Masking film",
+      "aliases": [
+        "paint protection film disposable"
+      ],
+      "unit": "roll",
+      "active": true
+    },
+    {
+      "id": "misc-masking-paper",
+      "category": "Miscellaneous Items",
+      "description": "Masking paper",
+      "aliases": [
+        "paint masking paper"
+      ],
+      "unit": "roll",
+      "active": true
+    },
+    {
+      "id": "misc-disposable-seat-protection-cover",
+      "category": "Miscellaneous Items",
+      "description": "Disposable seat protection cover",
+      "aliases": [
+        "seat cover disposable"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-disposable-steering-wheel-cover",
+      "category": "Miscellaneous Items",
+      "description": "Disposable steering wheel cover",
+      "aliases": [
+        "steering protector"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-disposable-floor-protection-mat",
+      "category": "Miscellaneous Items",
+      "description": "Disposable floor protection mat",
+      "aliases": [
+        "floor protector"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-fender-protection-cover",
+      "category": "Miscellaneous Items",
+      "description": "Fender protection cover",
+      "aliases": [
+        "wing protection cover"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-wheel-masking-cover",
+      "category": "Miscellaneous Items",
+      "description": "Wheel masking cover",
+      "aliases": [
+        "wheel paint mask"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-abrasive-sanding-disc",
+      "category": "Miscellaneous Items",
+      "description": "Abrasive sanding disc",
+      "aliases": [
+        "sanding disk"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-abrasive-sanding-sheet",
+      "category": "Miscellaneous Items",
+      "description": "Abrasive sanding sheet",
+      "aliases": [
+        "sandpaper"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-abrasive-sanding-belt",
+      "category": "Miscellaneous Items",
+      "description": "Abrasive sanding belt",
+      "aliases": [
+        "belt sander abrasive"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-abrasive-flap-disc",
+      "category": "Miscellaneous Items",
+      "description": "Abrasive flap disc",
+      "aliases": [
+        "flap disk"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-metal-cutting-disc",
+      "category": "Miscellaneous Items",
+      "description": "Metal cutting disc",
+      "aliases": [
+        "cutoff wheel"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-weld-grinding-disc",
+      "category": "Miscellaneous Items",
+      "description": "Weld grinding disc",
+      "aliases": [
+        "grinding wheel"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-wire-brush-consumable",
+      "category": "Miscellaneous Items",
+      "description": "Wire brush consumable",
+      "aliases": [
+        "wire wheel"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-abrasive-scuff-pad",
+      "category": "Miscellaneous Items",
+      "description": "Abrasive scuff pad",
+      "aliases": [
+        "scotch pad"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-foam-polishing-pad",
+      "category": "Miscellaneous Items",
+      "description": "Foam polishing pad",
+      "aliases": [
+        "buffing foam"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-wool-polishing-pad",
+      "category": "Miscellaneous Items",
+      "description": "Wool polishing pad",
+      "aliases": [
+        "wool buffing pad"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-microfibre-cleaning-cloth",
+      "category": "Miscellaneous Items",
+      "description": "Microfibre cleaning cloth",
+      "aliases": [
+        "microfiber cloth"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-tack-cloth",
+      "category": "Miscellaneous Items",
+      "description": "Tack cloth",
+      "aliases": [
+        "tack rag"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-lint-free-cleaning-wipe",
+      "category": "Miscellaneous Items",
+      "description": "Lint-free cleaning wipe",
+      "aliases": [
+        "lint free wipe"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-panel-surface-degreaser",
+      "category": "Miscellaneous Items",
+      "description": "Panel surface degreaser",
+      "aliases": [
+        "panel wipe"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-silicone-remover",
+      "category": "Miscellaneous Items",
+      "description": "Silicone remover",
+      "aliases": [
+        "silicon remover"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-brake-cleaner",
+      "category": "Miscellaneous Items",
+      "description": "Brake cleaner",
+      "aliases": [
+        "brake cleaning solvent"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-electrical-contact-cleaner",
+      "category": "Miscellaneous Items",
+      "description": "Electrical contact cleaner",
+      "aliases": [
+        "contact spray"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-automotive-glass-cleaner",
+      "category": "Miscellaneous Items",
+      "description": "Automotive glass cleaner",
+      "aliases": [
+        "window cleaning liquid"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-upholstery-cleaning-solution",
+      "category": "Miscellaneous Items",
+      "description": "Upholstery cleaning solution",
+      "aliases": [
+        "fabric cleaner"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-engine-degreaser",
+      "category": "Miscellaneous Items",
+      "description": "Engine degreaser",
+      "aliases": [
+        "engine cleaning liquid"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-rust-dissolving-solution",
+      "category": "Miscellaneous Items",
+      "description": "Rust dissolving solution",
+      "aliases": [
+        "rust remover"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-adhesive-residue-remover",
+      "category": "Miscellaneous Items",
+      "description": "Adhesive residue remover",
+      "aliases": [
+        "glue remover"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-tar-remover",
+      "category": "Miscellaneous Items",
+      "description": "Tar remover",
+      "aliases": [
+        "bitumen remover"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-cutting-compound",
+      "category": "Miscellaneous Items",
+      "description": "Cutting compound",
+      "aliases": [
+        "rubbing compound"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-finishing-polish",
+      "category": "Miscellaneous Items",
+      "description": "Finishing polish",
+      "aliases": [
+        "final polish"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-detailing-clay",
+      "category": "Miscellaneous Items",
+      "description": "Detailing clay",
+      "aliases": [
+        "clay bar"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-vehicle-wash-shampoo",
+      "category": "Miscellaneous Items",
+      "description": "Vehicle wash shampoo",
+      "aliases": [
+        "car shampoo"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-wheel-cleaning-solution",
+      "category": "Miscellaneous Items",
+      "description": "Wheel cleaning solution",
+      "aliases": [
+        "alloy wheel cleaner"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-tyre-dressing",
+      "category": "Miscellaneous Items",
+      "description": "Tyre dressing",
+      "aliases": [
+        "tire shine"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-spill-absorbent-granules",
+      "category": "Miscellaneous Items",
+      "description": "Spill absorbent granules",
+      "aliases": [
+        "oil spill granules"
+      ],
+      "unit": "kg",
+      "active": true
+    },
+    {
+      "id": "misc-spill-absorbent-pad",
+      "category": "Miscellaneous Items",
+      "description": "Spill absorbent pad",
+      "aliases": [
+        "oil absorbent pad"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-structural-epoxy-adhesive",
+      "category": "Miscellaneous Items",
+      "description": "Structural epoxy adhesive",
+      "aliases": [
+        "epoxy bonding adhesive"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-windscreen-polyurethane-adhesive",
+      "category": "Miscellaneous Items",
+      "description": "Windscreen polyurethane adhesive",
+      "aliases": [
+        "windshield bonding adhesive"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-glass-fibre-laminating-resin",
+      "category": "Miscellaneous Items",
+      "description": "Glass-fibre laminating resin",
+      "aliases": [
+        "fibreglass repair resin"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-plastic-repair-adhesive",
+      "category": "Miscellaneous Items",
+      "description": "Plastic repair adhesive",
+      "aliases": [
+        "bumper repair glue"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-contact-adhesive",
+      "category": "Miscellaneous Items",
+      "description": "Contact adhesive",
+      "aliases": [
+        "trim contact glue"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-thread-locking-compound",
+      "category": "Miscellaneous Items",
+      "description": "Thread-locking compound",
+      "aliases": [
+        "threadlocker"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-thread-sealing-compound",
+      "category": "Miscellaneous Items",
+      "description": "Thread sealing compound",
+      "aliases": [
+        "pipe thread sealant"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-rtv-gasket-sealant",
+      "category": "Miscellaneous Items",
+      "description": "RTV gasket sealant",
+      "aliases": [
+        "silicone gasket maker"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-automotive-seam-sealer",
+      "category": "Miscellaneous Items",
+      "description": "Automotive seam sealer",
+      "aliases": [
+        "body seam sealant"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-exhaust-assembly-paste",
+      "category": "Miscellaneous Items",
+      "description": "Exhaust assembly paste",
+      "aliases": [
+        "exhaust joint compound"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-copper-anti-seize-paste",
+      "category": "Miscellaneous Items",
+      "description": "Copper anti-seize paste",
+      "aliases": [
+        "copper grease"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-silicone-grease",
+      "category": "Miscellaneous Items",
+      "description": "Silicone grease",
+      "aliases": [
+        "silicon grease"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-lithium-grease",
+      "category": "Miscellaneous Items",
+      "description": "Lithium grease",
+      "aliases": [
+        "bearing lubrication grease"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-dielectric-grease",
+      "category": "Miscellaneous Items",
+      "description": "Dielectric grease",
+      "aliases": [
+        "electrical connector grease"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-multipurpose-spray-lubricant",
+      "category": "Miscellaneous Items",
+      "description": "Multipurpose spray lubricant",
+      "aliases": [
+        "general lubricant spray"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-penetrating-oil",
+      "category": "Miscellaneous Items",
+      "description": "Penetrating oil",
+      "aliases": [
+        "rust penetrant"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-air-conditioning-compressor-oil",
+      "category": "Miscellaneous Items",
+      "description": "Air-conditioning compressor oil",
+      "aliases": [
+        "AC oil aircon oil refrigerant oil"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-uv-leak-detection-dye",
+      "category": "Miscellaneous Items",
+      "description": "UV leak detection dye",
+      "aliases": [
+        "fluorescent leak dye"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-air-conditioning-refrigerant",
+      "category": "Miscellaneous Items",
+      "description": "Air-conditioning refrigerant",
+      "aliases": [
+        "AC gas aircon gas refrigerant"
+      ],
+      "unit": "kg",
+      "active": true
+    },
+    {
+      "id": "misc-engine-coolant-concentrate",
+      "category": "Miscellaneous Items",
+      "description": "Engine coolant concentrate",
+      "aliases": [
+        "antifreeze coolant"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-brake-fluid",
+      "category": "Miscellaneous Items",
+      "description": "Brake fluid",
+      "aliases": [
+        "hydraulic brake fluid"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-hydraulic-suspension-fluid",
+      "category": "Miscellaneous Items",
+      "description": "Hydraulic suspension fluid",
+      "aliases": [
+        "hydropneumatic suspension fluid"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-automatic-transmission-fluid",
+      "category": "Miscellaneous Items",
+      "description": "Automatic transmission fluid",
+      "aliases": [
+        "ATF transmission oil"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-power-steering-fluid",
+      "category": "Miscellaneous Items",
+      "description": "Power steering fluid",
+      "aliases": [
+        "steering hydraulic fluid"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-windscreen-washer-fluid",
+      "category": "Miscellaneous Items",
+      "description": "Windscreen washer fluid",
+      "aliases": [
+        "windshield wash"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-engine-oil",
+      "category": "Miscellaneous Items",
+      "description": "Engine oil",
+      "aliases": [
+        "motor oil එන්ජින් තෙල්"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-differential-gear-oil",
+      "category": "Miscellaneous Items",
+      "description": "Differential gear oil",
+      "aliases": [
+        "axle oil"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-distilled-water",
+      "category": "Miscellaneous Items",
+      "description": "Distilled water",
+      "aliases": [
+        "demineralised water"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-cooling-system-flushing-solution",
+      "category": "Miscellaneous Items",
+      "description": "Cooling-system flushing solution",
+      "aliases": [
+        "radiator flush"
+      ],
+      "unit": "litre",
+      "active": true
+    },
+    {
+      "id": "misc-automotive-butyl-sealing-tape",
+      "category": "Miscellaneous Items",
+      "description": "Automotive butyl sealing tape",
+      "aliases": [
+        "butyl strip"
+      ],
+      "unit": "roll",
+      "active": true
+    },
+    {
+      "id": "misc-closed-cell-foam-sealing-strip",
+      "category": "Miscellaneous Items",
+      "description": "Closed-cell foam sealing strip",
+      "aliases": [
+        "foam seal tape"
+      ],
+      "unit": "metre",
+      "active": true
+    },
+    {
+      "id": "misc-sound-deadening-mat",
+      "category": "Miscellaneous Items",
+      "description": "Sound deadening mat",
+      "aliases": [
+        "acoustic damping sheet"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-heat-reflective-tape",
+      "category": "Miscellaneous Items",
+      "description": "Heat reflective tape",
+      "aliases": [
+        "thermal reflective tape"
+      ],
+      "unit": "roll",
+      "active": true
+    },
+    {
+      "id": "misc-rubber-wiring-grommet",
+      "category": "Miscellaneous Items",
+      "description": "Rubber wiring grommet",
+      "aliases": [
+        "wire pass through grommet"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-nylon-panel-clip",
+      "category": "Miscellaneous Items",
+      "description": "Nylon panel clip",
+      "aliases": [
+        "trim push clip"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-metal-trim-clip",
+      "category": "Miscellaneous Items",
+      "description": "Metal trim clip",
+      "aliases": [
+        "spring trim clip"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-plastic-push-rivet",
+      "category": "Miscellaneous Items",
+      "description": "Plastic push rivet",
+      "aliases": [
+        "push pin fastener"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-blind-rivet",
+      "category": "Miscellaneous Items",
+      "description": "Blind rivet",
+      "aliases": [
+        "pop rivet"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-threaded-rivet-nut",
+      "category": "Miscellaneous Items",
+      "description": "Threaded rivet nut",
+      "aliases": [
+        "rivnut"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-self-tapping-screw",
+      "category": "Miscellaneous Items",
+      "description": "Self-tapping screw",
+      "aliases": [
+        "self tapping fastener"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-machine-bolt",
+      "category": "Miscellaneous Items",
+      "description": "Machine bolt",
+      "aliases": [
+        "metric bolt"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-hexagon-nut",
+      "category": "Miscellaneous Items",
+      "description": "Hexagon nut",
+      "aliases": [
+        "hex nut"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-nylon-locking-nut",
+      "category": "Miscellaneous Items",
+      "description": "Nylon locking nut",
+      "aliases": [
+        "nyloc nut"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-flat-washer",
+      "category": "Miscellaneous Items",
+      "description": "Flat washer",
+      "aliases": [
+        "plain washer"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-spring-washer",
+      "category": "Miscellaneous Items",
+      "description": "Spring washer",
+      "aliases": [
+        "lock washer"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-split-pin",
+      "category": "Miscellaneous Items",
+      "description": "Split pin",
+      "aliases": [
+        "cotter pin"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-retaining-circlip",
+      "category": "Miscellaneous Items",
+      "description": "Retaining circlip",
+      "aliases": [
+        "snap ring"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-spring-hose-clamp",
+      "category": "Miscellaneous Items",
+      "description": "Spring hose clamp",
+      "aliases": [
+        "constant tension clamp"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-worm-drive-hose-clamp",
+      "category": "Miscellaneous Items",
+      "description": "Worm-drive hose clamp",
+      "aliases": [
+        "jubilee clip"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-cable-tie",
+      "category": "Miscellaneous Items",
+      "description": "Cable tie",
+      "aliases": [
+        "zip tie"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-adhesive-cable-tie-mount",
+      "category": "Miscellaneous Items",
+      "description": "Adhesive cable tie mount",
+      "aliases": [
+        "cable tie base"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-wiring-harness-tape",
+      "category": "Miscellaneous Items",
+      "description": "Wiring harness tape",
+      "aliases": [
+        "loom tape"
+      ],
+      "unit": "roll",
+      "active": true
+    },
+    {
+      "id": "misc-heat-shrink-tubing",
+      "category": "Miscellaneous Items",
+      "description": "Heat-shrink tubing",
+      "aliases": [
+        "heat shrink sleeve"
+      ],
+      "unit": "metre",
+      "active": true
+    },
+    {
+      "id": "misc-electrical-solder",
+      "category": "Miscellaneous Items",
+      "description": "Electrical solder",
+      "aliases": [
+        "solder wire"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-crimp-terminal",
+      "category": "Miscellaneous Items",
+      "description": "Crimp terminal",
+      "aliases": [
+        "wire lug"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-sealed-wire-connector",
+      "category": "Miscellaneous Items",
+      "description": "Sealed wire connector",
+      "aliases": [
+        "waterproof connector"
+      ],
+      "unit": "item",
+      "active": true
+    },
+    {
+      "id": "misc-automotive-electrical-wire",
+      "category": "Miscellaneous Items",
+      "description": "Automotive electrical wire",
+      "aliases": [
+        "wiring cable"
+      ],
+      "unit": "metre",
+      "active": true
+    },
+    {
+      "id": "misc-corrugated-wiring-conduit",
+      "category": "Miscellaneous Items",
+      "description": "Corrugated wiring conduit",
+      "aliases": [
+        "split loom tube"
+      ],
+      "unit": "metre",
+      "active": true
+    },
+    {
+      "id": "misc-rubber-vacuum-hose",
+      "category": "Miscellaneous Items",
+      "description": "Rubber vacuum hose",
+      "aliases": [
+        "vacuum pipe"
+      ],
+      "unit": "metre",
+      "active": true
+    },
+    {
+      "id": "charge-vehicle-diagnostic-scan",
+      "category": "Other Charges",
+      "description": "Vehicle diagnostic scan",
+      "aliases": [
+        "OBD scan computer scan"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-engine-control-module-diagnostics",
+      "category": "Other Charges",
+      "description": "Engine control module diagnostics",
+      "aliases": [
+        "ECM ECU engine diagnostics"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-transmission-control-module-diagnostics",
+      "category": "Other Charges",
+      "description": "Transmission control module diagnostics",
+      "aliases": [
+        "TCM gearbox diagnostics"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-abs-system-diagnostics",
+      "category": "Other Charges",
+      "description": "ABS system diagnostics",
+      "aliases": [
+        "antilock brake scan"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-airbag-srs-system-diagnostics",
+      "category": "Other Charges",
+      "description": "Airbag SRS system diagnostics",
+      "aliases": [
+        "restraint diagnostic scan"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-body-control-module-diagnostics",
+      "category": "Other Charges",
+      "description": "Body control module diagnostics",
+      "aliases": [
+        "BCM diagnostics"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-hybrid-system-diagnostics",
+      "category": "Other Charges",
+      "description": "Hybrid system diagnostics",
+      "aliases": [
+        "hybrid battery system scan"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-electric-vehicle-high-voltage-diagnostics",
+      "category": "Other Charges",
+      "description": "Electric vehicle high-voltage diagnostics",
+      "aliases": [
+        "EV HV diagnostics"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-air-conditioning-performance-test",
+      "category": "Other Charges",
+      "description": "Air-conditioning performance test",
+      "aliases": [
+        "AC aircon cooling test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-air-conditioning-refrigerant-identification-test",
+      "category": "Other Charges",
+      "description": "Air-conditioning refrigerant identification test",
+      "aliases": [
+        "AC gas purity test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-air-conditioning-nitrogen-pressure-leak-test",
+      "category": "Other Charges",
+      "description": "Air-conditioning nitrogen pressure leak test",
+      "aliases": [
+        "AC nitrogen leak test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-air-conditioning-electronic-leak-test",
+      "category": "Other Charges",
+      "description": "Air-conditioning electronic leak test",
+      "aliases": [
+        "AC gas sniffer test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-air-conditioning-refrigerant-recovery",
+      "category": "Other Charges",
+      "description": "Air-conditioning refrigerant recovery",
+      "aliases": [
+        "AC gas recovery"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-air-conditioning-evacuation-service",
+      "category": "Other Charges",
+      "description": "Air-conditioning evacuation service",
+      "aliases": [
+        "AC vacuum service"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-wheel-alignment-measurement-report",
+      "category": "Other Charges",
+      "description": "Wheel alignment measurement report",
+      "aliases": [
+        "alignment geometry report"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-wheel-alignment-adjustment",
+      "category": "Other Charges",
+      "description": "Wheel alignment adjustment",
+      "aliases": [
+        "tracking adjustment"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-wheel-balancing",
+      "category": "Other Charges",
+      "description": "Wheel balancing",
+      "aliases": [
+        "tyre balance tire balance"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-road-force-wheel-balancing",
+      "category": "Other Charges",
+      "description": "Road-force wheel balancing",
+      "aliases": [
+        "road force tyre balance"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-wheel-runout-measurement",
+      "category": "Other Charges",
+      "description": "Wheel runout measurement",
+      "aliases": [
+        "wheel distortion check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-tyre-condition-and-roadworthiness-inspection",
+      "category": "Other Charges",
+      "description": "Tyre condition and roadworthiness inspection",
+      "aliases": [
+        "tire safety inspection"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-wheel-bearing-noise-diagnosis",
+      "category": "Other Charges",
+      "description": "Wheel bearing noise diagnosis",
+      "aliases": [
+        "hub noise test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-steering-free-play-inspection",
+      "category": "Other Charges",
+      "description": "Steering free-play inspection",
+      "aliases": [
+        "steering backlash measurement"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-suspension-joint-play-inspection",
+      "category": "Other Charges",
+      "description": "Suspension joint play inspection",
+      "aliases": [
+        "suspension looseness check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-shock-absorber-performance-test",
+      "category": "Other Charges",
+      "description": "Shock absorber performance test",
+      "aliases": [
+        "damper testing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-roller-brake-efficiency-test",
+      "category": "Other Charges",
+      "description": "Roller brake efficiency test",
+      "aliases": [
+        "brake dynamometer test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-brake-fluid-moisture-test",
+      "category": "Other Charges",
+      "description": "Brake fluid moisture test",
+      "aliases": [
+        "brake fluid water content"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-brake-hydraulic-pressure-test",
+      "category": "Other Charges",
+      "description": "Brake hydraulic pressure test",
+      "aliases": [
+        "brake line pressure check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-brake-disc-runout-measurement",
+      "category": "Other Charges",
+      "description": "Brake disc runout measurement",
+      "aliases": [
+        "rotor runout test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-parking-brake-performance-test",
+      "category": "Other Charges",
+      "description": "Parking brake performance test",
+      "aliases": [
+        "handbrake test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-battery-health-and-load-test",
+      "category": "Other Charges",
+      "description": "Battery health and load test",
+      "aliases": [
+        "battery CCA test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-starter-current-draw-test",
+      "category": "Other Charges",
+      "description": "Starter current draw test",
+      "aliases": [
+        "starter amp test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-alternator-output-test",
+      "category": "Other Charges",
+      "description": "Alternator output test",
+      "aliases": [
+        "charging voltage test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-parasitic-battery-drain-diagnosis",
+      "category": "Other Charges",
+      "description": "Parasitic battery drain diagnosis",
+      "aliases": [
+        "battery discharge test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-wiring-continuity-and-insulation-test",
+      "category": "Other Charges",
+      "description": "Wiring continuity and insulation test",
+      "aliases": [
+        "electrical harness test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-automotive-oscilloscope-signal-analysis",
+      "category": "Other Charges",
+      "description": "Automotive oscilloscope signal analysis",
+      "aliases": [
+        "scope waveform test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-vehicle-can-network-diagnostics",
+      "category": "Other Charges",
+      "description": "Vehicle CAN network diagnostics",
+      "aliases": [
+        "CAN bus communication check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-specialist-ecu-bench-test",
+      "category": "Other Charges",
+      "description": "Specialist ECU bench test",
+      "aliases": [
+        "external ECU testing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-key-transponder-diagnosis",
+      "category": "Other Charges",
+      "description": "Key transponder diagnosis",
+      "aliases": [
+        "immobiliser transponder check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-headlamp-beam-alignment-measurement",
+      "category": "Other Charges",
+      "description": "Headlamp beam alignment measurement",
+      "aliases": [
+        "headlight beam test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-headlamp-beam-adjustment",
+      "category": "Other Charges",
+      "description": "Headlamp beam adjustment",
+      "aliases": [
+        "headlight aiming"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-engine-compression-test",
+      "category": "Other Charges",
+      "description": "Engine compression test",
+      "aliases": [
+        "cylinder compression check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-cylinder-leak-down-test",
+      "category": "Other Charges",
+      "description": "Cylinder leak-down test",
+      "aliases": [
+        "cylinder leakage test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-cooling-system-pressure-test",
+      "category": "Other Charges",
+      "description": "Cooling-system pressure test",
+      "aliases": [
+        "radiator pressure check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-coolant-combustion-gas-test",
+      "category": "Other Charges",
+      "description": "Coolant combustion-gas test",
+      "aliases": [
+        "block tester head gasket gas test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-radiator-flow-test",
+      "category": "Other Charges",
+      "description": "Radiator flow test",
+      "aliases": [
+        "radiator blockage measurement"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-engine-oil-pressure-test",
+      "category": "Other Charges",
+      "description": "Engine oil pressure test",
+      "aliases": [
+        "lubrication pressure check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-crankcase-pressure-test",
+      "category": "Other Charges",
+      "description": "Crankcase pressure test",
+      "aliases": [
+        "blow-by pressure test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-fuel-delivery-pressure-test",
+      "category": "Other Charges",
+      "description": "Fuel delivery pressure test",
+      "aliases": [
+        "fuel rail pressure check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-specialist-injector-spray-pattern-test",
+      "category": "Other Charges",
+      "description": "Specialist injector spray pattern test",
+      "aliases": [
+        "injector bench testing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-diesel-injector-return-flow-test",
+      "category": "Other Charges",
+      "description": "Diesel injector return-flow test",
+      "aliases": [
+        "diesel leak-off test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-fuel-sample-contamination-test",
+      "category": "Other Charges",
+      "description": "Fuel sample contamination test",
+      "aliases": [
+        "fuel quality check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-intake-smoke-leak-test",
+      "category": "Other Charges",
+      "description": "Intake smoke leak test",
+      "aliases": [
+        "vacuum intake smoke test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-exhaust-back-pressure-test",
+      "category": "Other Charges",
+      "description": "Exhaust back-pressure test",
+      "aliases": [
+        "exhaust restriction test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-turbocharger-boost-pressure-test",
+      "category": "Other Charges",
+      "description": "Turbocharger boost pressure test",
+      "aliases": [
+        "turbo boost test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-charge-air-cooler-pressure-test",
+      "category": "Other Charges",
+      "description": "Charge-air cooler pressure test",
+      "aliases": [
+        "intercooler leak test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-statutory-vehicle-emissions-test-expense",
+      "category": "Other Charges",
+      "description": "Statutory vehicle emissions test expense",
+      "aliases": [
+        "emission certificate test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-exhaust-gas-analyser-assessment",
+      "category": "Other Charges",
+      "description": "Exhaust gas analyser assessment",
+      "aliases": [
+        "four gas analysis"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-dpf-differential-pressure-assessment",
+      "category": "Other Charges",
+      "description": "DPF differential pressure assessment",
+      "aliases": [
+        "diesel particulate filter restriction test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-specialist-diesel-injection-pump-bench-test",
+      "category": "Other Charges",
+      "description": "Specialist diesel injection pump bench test",
+      "aliases": [
+        "diesel pump testing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-specialist-turbocharger-balance-test",
+      "category": "Other Charges",
+      "description": "Specialist turbocharger balance test",
+      "aliases": [
+        "turbo balancing test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-cylinder-head-pressure-test",
+      "category": "Other Charges",
+      "description": "Cylinder head pressure test",
+      "aliases": [
+        "head casting leak test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-cylinder-head-flatness-measurement",
+      "category": "Other Charges",
+      "description": "Cylinder head flatness measurement",
+      "aliases": [
+        "head distortion measurement"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-crankshaft-journal-measurement",
+      "category": "Other Charges",
+      "description": "Crankshaft journal measurement",
+      "aliases": [
+        "crank journal dimensional test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-engine-reconditioning-dimensional-inspection",
+      "category": "Other Charges",
+      "description": "Engine reconditioning dimensional inspection",
+      "aliases": [
+        "bore clearance measurement"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-driveshaft-balance-assessment",
+      "category": "Other Charges",
+      "description": "Driveshaft balance assessment",
+      "aliases": [
+        "CV shaft vibration test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-propshaft-dynamic-balancing",
+      "category": "Other Charges",
+      "description": "Propshaft dynamic balancing",
+      "aliases": [
+        "propeller shaft balance"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-chassis-alignment-measurement",
+      "category": "Other Charges",
+      "description": "Chassis alignment measurement",
+      "aliases": [
+        "chassis jig measurement"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-body-dimensional-measurement",
+      "category": "Other Charges",
+      "description": "Body dimensional measurement",
+      "aliases": [
+        "body datum measurement"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-paint-film-thickness-measurement",
+      "category": "Other Charges",
+      "description": "Paint film thickness measurement",
+      "aliases": [
+        "paint depth test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-coating-adhesion-test",
+      "category": "Other Charges",
+      "description": "Coating adhesion test",
+      "aliases": [
+        "paint adhesion check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-ultrasonic-metal-thickness-inspection",
+      "category": "Other Charges",
+      "description": "Ultrasonic metal thickness inspection",
+      "aliases": [
+        "metal thickness NDT"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-weld-dye-penetrant-inspection",
+      "category": "Other Charges",
+      "description": "Weld dye-penetrant inspection",
+      "aliases": [
+        "weld crack NDT"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-cabin-water-leak-test",
+      "category": "Other Charges",
+      "description": "Cabin water leak test",
+      "aliases": [
+        "rain water ingress test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-wind-noise-diagnosis",
+      "category": "Other Charges",
+      "description": "Wind noise diagnosis",
+      "aliases": [
+        "air leak road noise check"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-noise-vibration-and-harshness-diagnosis",
+      "category": "Other Charges",
+      "description": "Noise vibration and harshness diagnosis",
+      "aliases": [
+        "NVH assessment"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-diagnostic-road-test",
+      "category": "Other Charges",
+      "description": "Diagnostic road test",
+      "aliases": [
+        "fault finding test drive"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-automotive-borescope-inspection",
+      "category": "Other Charges",
+      "description": "Automotive borescope inspection",
+      "aliases": [
+        "endoscope internal inspection"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-fuel-tank-pressure-leak-test",
+      "category": "Other Charges",
+      "description": "Fuel tank pressure leak test",
+      "aliases": [
+        "fuel tank sealing test"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-adas-camera-calibration",
+      "category": "Other Charges",
+      "description": "ADAS camera calibration",
+      "aliases": [
+        "windscreen camera calibration"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-adaptive-cruise-radar-calibration",
+      "category": "Other Charges",
+      "description": "Adaptive cruise radar calibration",
+      "aliases": [
+        "ACC radar calibration"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-steering-angle-sensor-calibration",
+      "category": "Other Charges",
+      "description": "Steering angle sensor calibration",
+      "aliases": [
+        "SAS calibration"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-yaw-rate-sensor-calibration",
+      "category": "Other Charges",
+      "description": "Yaw rate sensor calibration",
+      "aliases": [
+        "stability sensor calibration"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-blind-spot-radar-calibration",
+      "category": "Other Charges",
+      "description": "Blind-spot radar calibration",
+      "aliases": [
+        "BSM sensor calibration"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-surround-view-camera-calibration",
+      "category": "Other Charges",
+      "description": "Surround-view camera calibration",
+      "aliases": [
+        "360 camera calibration"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-tyre-pressure-sensor-registration",
+      "category": "Other Charges",
+      "description": "Tyre pressure sensor registration",
+      "aliases": [
+        "TPMS programming"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-immobiliser-key-programming",
+      "category": "Other Charges",
+      "description": "Immobiliser key programming",
+      "aliases": [
+        "transponder key coding"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-authorised-ecu-software-programming",
+      "category": "Other Charges",
+      "description": "Authorised ECU software programming",
+      "aliases": [
+        "ECU reflash software update"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-replacement-battery-registration",
+      "category": "Other Charges",
+      "description": "Replacement battery registration",
+      "aliases": [
+        "battery management coding BMS"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-throttle-adaptation-procedure",
+      "category": "Other Charges",
+      "description": "Throttle adaptation procedure",
+      "aliases": [
+        "throttle relearn"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-transmission-adaptation-procedure",
+      "category": "Other Charges",
+      "description": "Transmission adaptation procedure",
+      "aliases": [
+        "gearbox relearn"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-flatbed-vehicle-recovery",
+      "category": "Other Charges",
+      "description": "Flatbed vehicle recovery",
+      "aliases": [
+        "flatbed towing"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-wheel-lift-vehicle-recovery",
+      "category": "Other Charges",
+      "description": "Wheel-lift vehicle recovery",
+      "aliases": [
+        "tow truck recovery"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-winching-recovery-service",
+      "category": "Other Charges",
+      "description": "Winching recovery service",
+      "aliases": [
+        "vehicle winch recovery"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-enclosed-vehicle-transport",
+      "category": "Other Charges",
+      "description": "Enclosed vehicle transport",
+      "aliases": [
+        "covered vehicle carrier"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-non-running-vehicle-loading-and-unloading",
+      "category": "Other Charges",
+      "description": "Non-running vehicle loading and unloading",
+      "aliases": [
+        "non runner handling transport"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-agreed-vehicle-storage",
+      "category": "Other Charges",
+      "description": "Agreed vehicle storage",
+      "aliases": [
+        "authorised vehicle storage"
+      ],
+      "unit": "day",
+      "active": true
+    },
+    {
+      "id": "charge-documented-parts-courier-delivery-expense",
+      "category": "Other Charges",
+      "description": "Documented parts courier delivery expense",
+      "aliases": [
+        "parts freight delivery"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-independent-vehicle-inspection-report",
+      "category": "Other Charges",
+      "description": "Independent vehicle inspection report",
+      "aliases": [
+        "third-party inspection report"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-statutory-vehicle-inspection-expense",
+      "category": "Other Charges",
+      "description": "Statutory vehicle inspection expense",
+      "aliases": [
+        "roadworthiness inspection expense"
+      ],
+      "unit": "job",
+      "active": true
+    },
+    {
+      "id": "charge-vehicle-weighbridge-measurement",
+      "category": "Other Charges",
+      "description": "Vehicle weighbridge measurement",
+      "aliases": [
+        "vehicle axle weight measurement"
+      ],
+      "unit": "job",
+      "active": true
+    }
+  ]
+}

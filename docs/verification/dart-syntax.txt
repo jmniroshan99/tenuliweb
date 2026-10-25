@@ -1,0 +1,9 @@
+Warning: Package resolution error when reading "analysis_options.yaml" file for "lib/security/permissions.dart":
+Failed to resolve package URI "package:flutter_lints/flutter.yaml" in include at "/workspace/scratch/61ccafdf1ded/InsureDrive_Web_Rentals/analysis_options.yaml".
+Warning: Package resolution error when reading "analysis_options.yaml" file for "lib/state/insurance_controller.dart":
+Failed to resolve package URI "package:flutter_lints/flutter.yaml" in include at "/workspace/scratch/61ccafdf1ded/InsureDrive_Web_Rentals/analysis_options.yaml".
+Warning: Package resolution error when reading "analysis_options.yaml" file for "lib/screens/app_shell.dart":
+Failed to resolve package URI "package:flutter_lints/flutter.yaml" in include at "/workspace/scratch/61ccafdf1ded/InsureDrive_Web_Rentals/analysis_options.yaml".
+Warning: Package resolution error when reading "analysis_options.yaml" file for "lib/services/rental_repository.dart":
+Failed to resolve package URI "package:flutter_lints/flutter.yaml" in include at "/workspace/scratch/61ccafdf1ded/InsureDrive_Web_Rentals/analysis_options.yaml".
+Formatted 5 files (0 changed) in 0.15 seconds.

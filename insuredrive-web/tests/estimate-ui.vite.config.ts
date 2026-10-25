@@ -1,0 +1,2 @@
+import {defineConfig} from 'vite';import react from '@vitejs/plugin-react';import{resolve}from'node:path';
+export default defineConfig({plugins:[react()],base:'./',define:{'import.meta.env.VITE_SUPABASE_URL':'""','import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY':'""'},build:{outDir:'.qa-estimate',emptyOutDir:true,rollupOptions:{input:[resolve('tests/estimate-ui-fixture.html'),resolve('tests/estimate-mobile-fixture.html')]}}});

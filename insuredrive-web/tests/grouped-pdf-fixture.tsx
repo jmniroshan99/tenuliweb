@@ -1,0 +1,7 @@
+// Synthetic development-only grouped PDF fixture. Not part of the production entry.
+import { createRoot } from 'react-dom/client';import RepairDocument from '../src/features/RepairDocument';import {Modal}from'../src/components/Controls';import '../src/style.css';
+const language=new URLSearchParams(location.search).get('language')||'si';
+const categories=['Replacement Items','Removal & Refitting Items','Repair Items','Paint Items'];
+const lines=Array.from({length:25},(_,i)=>({id:String(i),category:categories[i%4],description:(language==='en'?`${i+1}. Repair vehicle panel and replace damaged parts. `:`${i+1}. වාහනයේ අලුත්වැඩියාව සහ අමතර කොටස් `).repeat(4),notes:(language==='en'?'Inspected according to the customer request. ':'පාරිභෝගිකයාගේ ඉල්ලීම අනුව පරීක්ෂා කරන ලදී. ').repeat(4),quantity:2,unit:'item',unit_minor:10000,discount_minor:1000,net_minor:19000,tax_minor:0}));
+const doc={id:'group-test',number:'TAC-EST-TEST-R1',kind:'estimate',status:'issued',created_at:'2026-10-24T00:00:00Z',snapshot:{template_version:'grouped-v1',business:{name:'Tenuli Auto Care',address:'No-172/1-B, Keselwathugoda, Yakkala.',email:'tenulicabsautocare@gmail.com',phone:'0715882903'},estimate_number:'TAC-EST-TEST',info:{customer_name:'නිමල් පෙරේරා',registration:'DEMO-1234',make_model:'BAJAJ THREEWHEEL',notes:'අලුත්වැඩියාව පිළිබඳ අමතර සටහන්. '.repeat(20)},calculation:{lines,total_minor:475000,pending:0}}};
+createRoot(document.getElementById('root')!).render(<Modal title={doc.number} wide onClose={()=>{}}><RepairDocument doc={doc} language={language}/></Modal>);

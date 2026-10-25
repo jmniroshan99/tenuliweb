@@ -1,0 +1,39 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> tenuli-auto-care@1.17.0 prebuild
+> node ../scripts/build_automart_installer.mjs
+
+Automart setup SQL ready. Existing records and explicit permission denials are preserved.
+
+> tenuli-auto-care@1.17.0 build
+> tsc -b && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1906 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/_headers                              0.67 kB
+dist/index.html                            0.99 kB │ gzip:   0.51 kB
+dist/assets/RepairDocument-DAIjHJa6.css    9.81 kB │ gzip:   1.99 kB
+dist/assets/Legacy-CIGW-MKW.css           15.61 kB │ gzip:   6.46 kB
+dist/assets/index-w8ktmIOo.css            42.56 kB │ gzip:   9.90 kB
+dist/assets/plus-Bdl2W00C.js               0.15 kB │ gzip:   0.15 kB
+dist/assets/share-2-DKcXP_hP.js            0.62 kB │ gzip:   0.36 kB
+dist/assets/Security-BREWXKEC.js           7.36 kB │ gzip:   2.86 kB
+dist/assets/ShopCosts-Dq0JNSmG.js         15.81 kB │ gzip:   5.20 kB
+dist/assets/Rentals-BywCWkjl.js           25.01 kB │ gzip:   8.00 kB
+dist/assets/purify.es-18JuyMri.js         30.12 kB │ gzip:  11.51 kB
+dist/assets/RepairDocument-BmF8k5AW.js    52.17 kB │ gzip:  15.08 kB
+dist/assets/Repairs-D9VCaKHy.js           61.63 kB │ gzip:  17.26 kB
+dist/assets/index.es-DtFFkfUh.js         158.97 kB │ gzip:  53.06 kB
+dist/assets/Legacy-D6zY-SHo.js           164.39 kB │ gzip:  48.04 kB
+dist/assets/html2canvas.esm-DXEQVQnt.js  201.04 kB │ gzip:  47.43 kB
+dist/assets/jspdf.es.min-BedJhlqe.js     386.20 kB │ gzip: 126.39 kB
+dist/assets/index-CzOy2uQH.js            470.20 kB │ gzip: 139.83 kB
+✓ built in 13.45s
+
+> tenuli-auto-care@1.17.0 postbuild
+> node scripts/verify-release-security.mjs
+
+PASS release: no demo access, test database, WebAssembly, source maps or privileged keys; CSP and security headers present.

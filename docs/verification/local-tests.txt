@@ -1,0 +1,41 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> insuredrive-web@1.9.0 test
+> node --test tests/*.test.mjs
+
+PASS idempotent retry and payload mismatch
+PASS daily duration
+PASS overlap rejected
+PASS stale version rejected
+PASS invalid odometer rejected
+PASS LKR 33000 fixture with excess km
+PASS advance allocation and deposit separation
+PASS duplicate and client invoice tampering rejected
+PASS invoice snapshot immutable after customer edits
+PASS deposit apply/refund balance enforced
+PASS overpayment and excess refund rejected
+PASS owner data redaction and direct/RPC isolation
+PASS other owner isolation
+PASS officer has no automatic rental permission
+PASS suspended account denied
+PASS refund / void / reissue and unique numbering
+PASS invalid dates rejected
+PASS period boundary and half-up rounding
+PASS null version, null charge and fake deposit method rejected
+PASS deactivated vehicle cannot be confirmed
+PASS versioned settlement adjustment and corrected reissue
+PASS document sequence does not truncate beyond padding width
+22 database checks passed. PGlite is single-session: true multi-session contention requires PostgreSQL integration test.
+✔ tests/database.test.mjs (1202.36129ms)
+✔ minor units reject excessive decimal precision and negative money (1.286744ms)
+✔ Colombo wall time is interpreted independent of workstation timezone (0.631615ms)
+✔ request identifiers have RFC 4122 version/variant bits (11.340131ms)
+✔ advance and refundable deposit never double reduce invoice (0.316929ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1210.539983

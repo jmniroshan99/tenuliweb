@@ -1,0 +1,28 @@
+/* A snapshot opts in at issue time; older documents retain their original style. */
+.tenuli-paper [data-letterhead="blue-v1"],
+.operations-paper [data-letterhead="blue-v1"],
+.modern-paper [data-letterhead="blue-v1"],
+.invoice-page [data-letterhead="blue-v1"],
+.receipt-page [data-letterhead="blue-v1"] {
+  background: #07519a !important;
+  color: #fff !important;
+  border: 0 !important;
+  padding: 14px 18px !important;
+  border-radius: 0;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+[data-letterhead="blue-v1"] :is(h1, h2, h3, p, small, span, a) {
+  color: #fff !important;
+}
+[data-letterhead="blue-v1"] img {
+  background: #fff;
+  border-radius: 3px !important;
+  padding: 4px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.operations-header.has-blue-letterhead {
+  border-top: 0;
+  padding-top: 0;
+}

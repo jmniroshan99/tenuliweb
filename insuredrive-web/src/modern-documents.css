@@ -1,0 +1,489 @@
+/* Versioned customer-document styles. Legacy .service-paper/.grouped-paper stay unchanged. */
+.modern-paper.modern-paper {
+  width: 210mm;
+  height: 297mm;
+  min-height: 297mm;
+  padding: 13mm;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto 24px;
+  background: #fff !important;
+  color: #173047 !important;
+  font:
+    13.333px/1.55 Arial,
+    NotoSinhala,
+    sans-serif;
+  font-variant-numeric: tabular-nums;
+  text-align: left;
+}
+.modern-paper.modern-paper p {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.modern-paper.modern-paper h1,
+.modern-paper.modern-paper h2,
+.modern-paper.modern-paper h3 {
+  margin: 0;
+  color: #12304a;
+}
+.modern-paper.modern-paper h3 {
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 700;
+}
+.modern-paper.modern-paper small {
+  font-size: 11.5px;
+}
+.modern-paper.modern-paper .modern-header {
+  margin-bottom: 15px;
+}
+.modern-paper.modern-paper .modern-brand {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding-bottom: 13px;
+  border-bottom: 2px solid #22a9c6;
+}
+.modern-paper.modern-paper .modern-brand img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  flex: 0 0 55px;
+  border-radius: 10px;
+}
+.modern-paper.modern-paper .modern-brand div {
+  min-width: 0;
+}
+.modern-paper.modern-paper .modern-brand h2 {
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 750;
+  overflow-wrap: anywhere;
+  margin-bottom: 4px;
+}
+.modern-paper.modern-paper .modern-brand p {
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: #42566a;
+}
+.modern-paper.modern-paper .modern-title {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 20px;
+  align-items: start;
+  margin: 15px 0 12px;
+}
+.modern-paper.modern-paper .modern-title h1 {
+  font-size: 21px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+.modern-paper.modern-paper .modern-title h1 span {
+  display: block;
+  font-size: 16px;
+  line-height: 1.45;
+  margin-top: 2px;
+  font-weight: 500;
+}
+.modern-paper.modern-paper .modern-reference {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: anywhere;
+  gap: 3px;
+  font-size: 11.5px;
+  color: #42566a;
+}
+.modern-paper.modern-paper .modern-reference b {
+  font-size: 16px;
+  color: #12304a;
+}
+.modern-paper.modern-paper .modern-meta {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr 1.25fr;
+  gap: 16px;
+  border-block: 1px solid #d7e0e7;
+  padding: 9px 0;
+  font-size: 11.5px;
+}
+.modern-paper.modern-paper .modern-meta span {
+  display: block;
+  color: #42566a;
+  font-size: 10.5px;
+}
+.modern-paper.modern-paper .modern-meta b {
+  display: block;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.modern-paper.modern-paper .modern-header-continued .modern-brand {
+  padding-bottom: 8px;
+}
+.modern-paper.modern-paper .modern-header-continued .modern-brand img {
+  width: 30px;
+  height: 30px;
+  flex-basis: 30px;
+  border-radius: 5px;
+}
+.modern-paper.modern-paper .modern-header-continued .modern-brand h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.modern-paper.modern-paper .modern-header-continued .modern-title {
+  margin: 10px 0 0;
+}
+.modern-paper.modern-paper .modern-header-continued .modern-title h1 {
+  font-size: 16px;
+}
+.modern-paper.modern-paper .modern-header-continued .modern-title h1 span {
+  display: inline;
+  font-size: inherit;
+  margin-left: 4px;
+}
+.modern-paper.modern-paper .modern-revision {
+  font-size: 10.5px;
+  color: #42566a;
+  margin-top: 7px;
+  overflow-wrap: anywhere;
+}
+.modern-paper.modern-paper .modern-parties {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  padding: 0 0 13px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #d7e0e7;
+}
+.modern-paper.modern-paper .modern-parties h3 {
+  color: #42566a;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.45px;
+  margin-bottom: 4px;
+}
+.modern-paper.modern-paper .modern-parties strong {
+  display: block;
+  font-size: 15px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.modern-paper.modern-paper .modern-parties p {
+  font-size: 12px;
+  margin-top: 3px;
+}
+.modern-paper.modern-paper .modern-item-section {
+  margin-bottom: 12px;
+}
+.modern-paper.modern-paper .modern-section-head {
+  padding: 5px 9px;
+  background: #eef5f8;
+  border-left: 3px solid #22a9c6;
+  font-size: 12.5px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.modern-paper.modern-paper .modern-section-head small {
+  color: #42566a;
+  font-size: 10px;
+  font-weight: 400;
+}
+.modern-paper.modern-paper .modern-items {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 0;
+  font-size: 13.333px;
+}
+.modern-paper.modern-paper .modern-items th,
+.modern-paper.modern-paper .modern-items td {
+  padding: 7px 5px;
+  border: none;
+  border-bottom: 1px solid #e0e6ec;
+  color: #173047;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  font-size: inherit;
+  line-height: 1.5;
+}
+.modern-paper.modern-paper .modern-items thead th {
+  font-size: 10.5px;
+  line-height: 1.25;
+  color: #42566a;
+  background: #fff;
+  padding-block: 7px;
+  text-align: left;
+}
+.modern-paper.modern-paper .modern-items thead small {
+  display: block;
+  font-size: 9px;
+  font-weight: 400;
+}
+.modern-paper.modern-paper .modern-items td:nth-child(n + 3),
+.modern-paper.modern-paper .modern-items th:nth-child(n + 3) {
+  text-align: right;
+}
+.modern-paper.modern-paper .modern-items td:first-child {
+  color: #42566a;
+  font-size: 11.5px;
+}
+.modern-paper.modern-paper .modern-item-note {
+  display: block;
+  color: #42566a;
+  font-size: 11.5px;
+  line-height: 1.55;
+  margin-top: 4px;
+  white-space: pre-wrap;
+}
+.modern-paper.modern-paper .modern-items td:nth-child(2) > div {
+  white-space: pre-wrap;
+}
+.modern-paper.modern-paper .modern-items tfoot th,
+.modern-paper.modern-paper .modern-items tfoot td {
+  font-size: 11.5px;
+  background: #f5f8fa;
+  padding-block: 6px;
+  font-weight: 700;
+}
+.modern-paper.modern-paper .modern-items tfoot td {
+  text-align: right;
+}
+.modern-paper.modern-paper .modern-text {
+  margin-bottom: 10px;
+}
+.modern-paper.modern-paper .modern-text h3 {
+  margin-bottom: 3px;
+}
+.modern-paper.modern-paper .modern-text p {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+.modern-paper.modern-paper .modern-text .modern-detail-heading {
+  padding-top: 5px;
+  margin: 5px 0 9px;
+  border-top: 1px solid #d7e0e7;
+  font-size: 14px;
+}
+.modern-paper.modern-paper .modern-advance {
+  margin-bottom: 10px;
+}
+.modern-paper.modern-paper .modern-advance h3 {
+  margin-bottom: 7px;
+}
+.modern-paper.modern-paper .modern-advance-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: #eff6f8;
+  border-left: 3px solid #22a9c6;
+  padding: 11px 12px;
+}
+.modern-paper.modern-paper .modern-advance-total strong {
+  font-size: 19px;
+  overflow-wrap: anywhere;
+  text-align: right;
+}
+.modern-paper.modern-paper .modern-advance-entry {
+  padding: 8px 0;
+  border-bottom: 1px solid #e0e6ec;
+  font-size: 12px;
+}
+.modern-paper.modern-paper .modern-advance-entry > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.modern-paper.modern-paper .modern-advance-entry p {
+  margin-top: 3px;
+  font-size: 11.5px;
+  color: #42566a;
+}
+.modern-paper.modern-paper .modern-closing {
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+.modern-paper.modern-paper .modern-settlement {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 30px;
+  padding-top: 12px;
+  border-top: 1px solid #b6c6d3;
+}
+.modern-paper.modern-paper .modern-settlement-caption p {
+  margin-top: 10px;
+  font-size: 10.5px;
+  line-height: 1.55;
+  color: #42566a;
+}
+.modern-paper.modern-paper .modern-status {
+  display: inline-block;
+  padding: 3px 9px;
+  border: 1px solid #91adbd;
+  border-radius: 4px;
+  margin-top: 7px;
+  font-size: 11px;
+  font-weight: 700;
+}
+.modern-paper.modern-paper .modern-payment-values dl {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 6px 14px;
+  font-size: 12px;
+}
+.modern-paper.modern-paper .modern-payment-values dt,
+.modern-paper.modern-paper .modern-payment-values dd {
+  margin: 0;
+  align-self: baseline;
+}
+.modern-paper.modern-paper .modern-payment-values dd {
+  text-align: right;
+}
+.modern-paper.modern-paper .modern-emphasis {
+  font-weight: 700;
+}
+.modern-paper.modern-paper .modern-balance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  border-top: 2px solid #22a9c6;
+  padding-top: 10px;
+  margin-top: 11px;
+}
+.modern-paper.modern-paper .modern-balance span {
+  font-weight: 700;
+  font-size: 12px;
+}
+.modern-paper.modern-paper .modern-balance strong {
+  font-size: 21px;
+  line-height: 1.3;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+.modern-paper.modern-paper .modern-receiving-notice {
+  border-top: 1px solid #d7e0e7;
+  padding-top: 10px;
+  font-size: 11.5px;
+  color: #42566a;
+}
+.modern-paper.modern-paper .modern-signatures {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 43px;
+}
+.modern-paper.modern-paper .modern-signatures span {
+  display: block;
+  width: 37%;
+  border-top: 1px solid #8fa6b9;
+  padding-top: 7px;
+  font-size: 11px;
+}
+.modern-paper.modern-paper .modern-footer {
+  position: absolute;
+  bottom: 13mm;
+  left: 13mm;
+  right: 13mm;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-top: 1px solid #d7e0e7;
+  padding-top: 7px;
+  color: #42566a;
+  font-size: 10px;
+  line-height: 1.4;
+}
+.modern-paper.modern-paper:lang(si) .modern-title h1 {
+  line-height: 1.6;
+}
+.modern-paper.modern-paper:lang(si) .modern-title h1 span {
+  line-height: 1.6;
+}
+.modern-paper.modern-paper:lang(si) .modern-items thead th {
+  line-height: 1.6;
+}
+.modern-paper.modern-paper:lang(si) .modern-payment-values dl {
+  line-height: 1.7;
+}
+.modern-measure {
+  position: fixed;
+  left: -20000px;
+  top: 0;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.modern-measure [data-measure-block],
+.modern-measure .measure-first,
+.modern-measure .measure-later {
+  display: flow-root;
+}
+@media print {
+  .tenuli-paper.modern-paper.modern-paper {
+    width: 210mm;
+    height: 297mm;
+    min-height: 297mm;
+    padding: 13mm;
+    margin: 0;
+    break-after: page;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  .modern-measure {
+    display: none !important;
+  }
+}
+/* Sinhala headings need a little more horizontal room than the Latin title. */
+.modern-paper.modern-paper:lang(si) .modern-title {
+  grid-template-columns: 1.3fr 1fr;
+}
+.modern-paper.modern-paper:lang(si) .modern-title h1 {
+  font-size: 18px;
+  line-height: 1.45;
+}
+.modern-paper.modern-paper:lang(si) .modern-title h1 span {
+  font-size: 14px;
+  line-height: 1.55;
+}
+.modern-paper.modern-paper:lang(si) .modern-header-continued .modern-title h1,
+.modern-paper.modern-paper:lang(si)
+  .modern-header-continued
+  .modern-title
+  h1
+  span {
+  font-size: 14px;
+}
+.modern-paper.modern-paper .modern-text p {
+  color: #173047;
+}
+.modern-paper.modern-paper .modern-work-summary {
+  margin-bottom: 12px;
+}
+.modern-paper.modern-paper .modern-work-summary.has-parts {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 22px;
+}
+.modern-paper.modern-paper .modern-work-summary h3 {
+  margin-bottom: 3px;
+}
+.modern-paper.modern-paper .modern-work-summary p {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  color: #173047;
+}
+.modern-paper.modern-paper .modern-items tbody td:nth-child(n + 3),
+.modern-paper.modern-paper .modern-items tfoot td {
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
+.modern-paper.modern-paper .modern-line-continuation {
+  display: block;
+  color: #42566a;
+  margin-bottom: 3px;
+}

@@ -1,0 +1,15 @@
+[build]
+  base = "insuredrive-web"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+  NPM_FLAGS = "--include=dev"
+
+# Keep existing files (assets, logo, fonts and setup SQL) ahead of the SPA fallback.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false

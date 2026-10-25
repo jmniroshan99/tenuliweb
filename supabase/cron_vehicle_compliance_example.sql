@@ -1,0 +1,7 @@
+-- Replaced by the production-ready setup in v1.5.8+13.
+-- Run these files instead:
+--   1) AUTO_EXPIRY_NOTIFICATIONS_SCHEDULE_RUN_THIS.sql
+--   2) VERIFY_AUTO_EXPIRY_NOTIFICATIONS.sql
+--
+-- To invoke the real scheduler immediately for testing:
+--   RUN_EXPIRY_NOTIFICATIONS_NOW.sql
