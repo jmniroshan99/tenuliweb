@@ -1,5 +1,3 @@
-import { activatePhotoAccount } from "./lib/local-photos";
-import { LocalPhotoStorage } from "./features/LocalPhotos";
 import {
   useCallback,
   useEffect,
@@ -104,7 +102,6 @@ export default function App() {
     epoch.current++;
     refreshQueued.current = false;
     clearRequestCache();
-    activatePhotoAccount(null);
     setProfile(null);
     setPermissions(new Set());
     setData(emptyRental);
@@ -128,9 +125,6 @@ export default function App() {
       try {
         const who = await identity();
         if (token !== epoch.current) return;
-        activatePhotoAccount(
-          import.meta.env.VITE_SUPABASE_URL + ":" + who.profile.id,
-        );
         setProfile(who.profile);
         setPermissions(who.permissions);
         const o = await legacy();
@@ -757,7 +751,7 @@ export default function App() {
                 workshop.repairs ? (
                   <Repairs
                     key={profile.id}
-                    photoScope={
+                    catalogueScope={
                       import.meta.env.VITE_SUPABASE_URL + ":" + profile.id
                     }
                     permissions={permissions}
@@ -791,15 +785,6 @@ export default function App() {
                 )
               ) : effectivePage === "settings" ? (
                 <>
-                  {can("manage_repairs") && (
-                    <LocalPhotoStorage
-                      key={profile.id}
-                      scope={
-                        import.meta.env.VITE_SUPABASE_URL + ":" + profile.id
-                      }
-                      language={language}
-                    />
-                  )}
                   {workshop.administrator && (
                     <Security language={language} onSignOut={logout} />
                   )}

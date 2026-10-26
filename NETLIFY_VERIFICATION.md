@@ -1,13 +1,15 @@
-# Netlify web-package verification — 25 October 2026
+# Netlify web-package verification — v1.19.1, 26 October 2026
 
-- Separate, sanitized web-only tree retains the application, sibling build helper and SQL dependencies. Flutter code/assets, real env files, dependencies, caches and build output are excluded from the source ZIP.
-- Clean `npm ci --include=dev`: passed.
-- `npm test` from the separate tree: **58 passed, 0 failed**. Logs: `docs/verification/netlify/tests.txt`.
-- Production build with `NETLIFY=true` and existing public Supabase configuration passed through the process environment: TypeScript, Vite and release-security check passed. Log: `docs/verification/netlify/build.txt`.
-- Missing Netlify build configuration: build failed early with the intended configuration message and without printing key values.
-- Parsed `netlify.toml`: base `insuredrive-web`, command `npm run build`, publish `dist`, Node `24`, non-forced SPA fallback. Existing files take precedence over the fallback.
-- Git ignore verification: `.env.local`, node_modules and dist are ignored; `.env.example` and netlify.toml are not ignored.
-- The runtime estimate editor, catalogue, document components and document CSS match the v1.19.0 application. The web copy adds only hosting configuration/documentation and the Netlify configuration guard.
-- No credentials, real customer records or browser-local photo queues are included. Existing public client configuration is supplied separately through Netlify's build environment.
+Vehicle-photo uploading, gallery and Local Photo Storage have been removed. The web package retains its existing GitHub → Netlify configuration, sibling build helper, SQL dependencies, catalogue, customer documents and unrelated attachments.
 
-Not performed: GitHub push, live Netlify build/deployment, final-domain sign-in, Supabase URL configuration change, or browser/device checks on a hosted URL. A connected GitHub account was inspected, but an intended writable Tenuli repository has not been provided. Local build success is not a claim of live deployment.
+- Automated tests: **45 passed, 0 failed, 0 skipped**.
+- English/Sinhala component-render checks: four cases passed.
+- Production build with NETLIFY=true and the existing public settings supplied through the process environment: TypeScript, Vite and release-security checks passed.
+- Dependency version check: npm ls --depth=0 passed.
+- netlify.toml is byte-identical to the uploaded package: base insuredrive-web, build npm run build, publish dist, Node 24, SPA fallback unchanged.
+- A fresh offline dependency install was unavailable because a package was missing from the cache. Existing exact installed dependency versions were reused for verification.
+- Interactive cloud-browser checks were blocked; no browser or mobile interaction success is claimed.
+
+See [docs/V1_19_1_PHOTO_REMOVAL.md](docs/V1_19_1_PHOTO_REMOVAL.md) for the change report, setup steps, evidence and limits. Current logs are under docs/verification/v1.19.1/. Reports under earlier version directories are historical.
+
+No live site, GitHub repository or database was changed. Keep the existing Supabase project and public Netlify environment variables. No new database migration is needed for this removal from a working v1.19.0 installation.

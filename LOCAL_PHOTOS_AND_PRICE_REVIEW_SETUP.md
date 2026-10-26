@@ -1,4 +1,8 @@
-# Tenuli Auto Care 1.17 — setup and use
+# Historical guide: Tenuli Auto Care 1.17 — local photos and price review
+
+> **Historical photo instructions — not active in v1.19.1.** Vehicle-photo upload, galleries, camera/folder controls and Local Photo Storage settings described below have been removed. Do not follow those photo setup or recovery steps in the current application. The update does not delete existing exported files, browser data or legacy job metadata. See [docs/V1_19_1_PHOTO_REMOVAL.md](docs/V1_19_1_PHOTO_REMOVAL.md) for current setup.
+>
+> `supabase/TENULI_PRICING_PHOTOS_UPGRADE.sql` is retained because it also implements the existing price-review and estimate API behavior. Do not remove it or undo its schema. A working v1.19.0 database needs no new migration merely to remove the frontend photo feature. The detailed instructions and verification below document the older v1.17 release.
 
 This updates the existing React/Vite web application in `insuredrive-web`. It preserves the supplied Flutter project, existing authentication and staff permissions, repair/rental billing, supplier costs, profit reporting and separate handover. There is no new demo login or privileged browser key.
 

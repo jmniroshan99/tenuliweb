@@ -1,0 +1,4 @@
+PASS estimate render: en, new, no photo controls; catalogue, M/R, customer/vehicle and revision inputs intact
+PASS estimate render: en, legacy, no photo controls; catalogue, M/R, customer/vehicle and revision inputs intact
+PASS estimate render: si, new, no photo controls; catalogue, M/R, customer/vehicle and revision inputs intact
+PASS estimate render: si, legacy, no photo controls; catalogue, M/R, customer/vehicle and revision inputs intact

@@ -1,6 +1,8 @@
-# Start Tenuli Auto Care v1.19.0
+# Start Tenuli Auto Care v1.19.1
 
-**For this release, start with docs/V1_19_CATALOGUE_SETUP.md.** Built-in 600-item selection needs no new SQL on v1.18.1; optional shared saving uses TENULI_CATALOGUE_UPGRADE.sql.
+**Current release: [docs/V1_19_1_PHOTO_REMOVAL.md](docs/V1_19_1_PHOTO_REMOVAL.md).** Vehicle-photo uploading, galleries and Local Photo Storage settings are removed. Estimates no longer depend on photo queues or folder/camera permissions. Existing stored photos, legacy job metadata and issued documents are retained; supplier bill attachments and logo uploads remain available. A working v1.19.0 installation needs no database migration for this change. The version-specific notes below describe earlier features and prerequisites.
+
+**Catalogue introduced in v1.19.0: see docs/V1_19_CATALOGUE_SETUP.md.** Built-in 600-item selection needs no new SQL on v1.18.1; optional shared saving uses TENULI_CATALOGUE_UPGRADE.sql.
 
 **Read docs/V1_18_SETUP.md first.** The required v1.18 operations-bill upgrade and current instructions supersede older version-specific notes below. Existing v1.17 installations need `supabase/TENULI_OPERATIONS_BILL_UPGRADE.sql`.
 
@@ -12,7 +14,7 @@ Read **SECURITY_UPDATE.md** first. Existing v1.15.0 databases need no new SQL mi
 2. Install Node.js 22.18 or newer within 22.x (the supplied launch scripts already check for Node).
 3. Double-click `START_WEB.bat`; open the local URL printed in the terminal. On Mac/Linux run `npm ci` and `npm run dev` inside `insuredrive-web`.
 4. Sign in using your existing active staff account. Demo access has been removed; the first sign-in after this upgrade starts a new browser session.
-5. If workshop setup is missing, install the database upgrade below, then sign in normally. Your original public Supabase URL and publishable key are already in `insuredrive-web/.env.local`, beside `package.json`. If you run a different existing folder, copy only the needed environment values there and restart its server.
+5. If workshop setup is missing, install the database upgrade below, then sign in normally. This source ZIP excludes local environment values. For local use, copy `insuredrive-web/.env.example` to `.env.local` beside `package.json`, fill the existing public Supabase URL and publishable key, and restart the server. For Netlify, keep these values in its build environment settings.
 
 **සිංහල:** ZIP එක සම්පූර්ණයෙන් extract කර `START_WEB.bat` විවෘත කරන්න. Demo පිවිසුම ඉවත් කර ඇත. ඔබගේ සැබෑ සක්‍රිය ගිණුමෙන් පිවිසෙන්න. v1.15.0 සිට මෙම ආරක්ෂක update එකට අලුත් SQL migration එකක් අවශ්‍ය නැත.
 
@@ -25,7 +27,7 @@ The delivered source does not modify your remote database automatically.
 3. The installer requires the existing insurance/RBAC/advanced-security setup. If it reports missing prerequisites, inspect `supabase/PRECHECK_RENTALS.sql` and follow `docs/WEB_RENTALS_SETUP.md` to resolve only the missing prerequisites. It refuses partial/custom installations rather than overwriting them.
 4. Run `supabase/VERIFY_TENULI.sql`, then click **Check access again** in the app, or sign out and back in. Administrators get missing default workshop grants. Deliberately denied role/user permissions remain denied; review them in **Access & audit** if access is still blocked. Grant individual workshop permissions to officers as appropriate. Owners cannot access internal workshop functions.
 5. If you manage schema changes through an already baselined Supabase CLI project, the original individual migrations remain included. Choose the SQL Editor installer or your normal migration process; do not blindly run both or push all historical migrations over an existing database.
-6. Deploy `insuredrive-web/dist` after `npm run build` to an HTTPS static host at its domain root. Existing Auth accounts remain in use. The static build is included. The build/dev scripts regenerate the downloadable setup file from the authoritative migrations.
+6. Deploy `insuredrive-web/dist` after `npm run build` to an HTTPS static host at its domain root. Existing Auth accounts remain in use. Generate the static build locally or through Netlify; generated build output is excluded from the source ZIP. The build/dev scripts regenerate the downloadable setup file from the authoritative migrations.
 
 Never run `insuredrive-web/tests/fixtures/database/platform.sql`, test fixtures, or test setup on a real database. Those are synthetic test platforms.
 

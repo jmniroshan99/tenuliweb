@@ -1,0 +1,115 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> tenuli-auto-care@1.19.1 test
+> node --test tests/*.test.mjs
+
+✔ public auth configuration accepts publishable/anon and rejects privileged or malformed keys (1.244454ms)
+✔ public config requires a secure origin except local loopback (0.346956ms)
+✔ session upgrade removes only this project persistent token and uses tab storage (0.418219ms)
+✔ blocked browser storage falls back to memory and logout clears it (0.19224ms)
+PASS installer insurance-only + repeated runs preserve jobs, sequences and permission denials
+PASS installer rentals-installed + repeated runs preserve jobs, sequences and permission denials
+PASS installer all-installed + repeated runs preserve jobs, sequences and permission denials
+PASS absent prerequisites fail without partial installation
+✔ tests/automart-install.test.mjs (6832.664287ms)
+PASS shared catalogue: explicit authorized saving, deduplicated retries, validation, read/write isolation, inactive/owner/anonymous denial, no direct access, repeat upgrade and unchanged job prices, payments and snapshots.
+✔ tests/catalogue-database.test.mjs (2736.811083ms)
+✔ Vite fails before bundling secret public configuration without logging key values (817.581857ms)
+PASS idempotent retry and payload mismatch
+PASS daily duration
+PASS overlap rejected
+PASS stale version rejected
+PASS invalid odometer rejected
+PASS LKR 33000 fixture with excess km
+PASS advance allocation and deposit separation
+PASS duplicate and client invoice tampering rejected
+PASS invoice snapshot immutable after customer edits
+PASS deposit apply/refund balance enforced
+PASS overpayment and excess refund rejected
+PASS owner data redaction and direct/RPC isolation
+PASS other owner isolation
+PASS officer has no automatic rental permission
+PASS suspended account denied
+PASS refund / void / reissue and unique numbering
+PASS invalid dates rejected
+PASS period boundary and half-up rounding
+PASS null version, null charge and fake deposit method rejected
+PASS deactivated vehicle cannot be confirmed
+PASS versioned settlement adjustment and corrected reissue
+PASS document sequence does not truncate beyond padding width
+22 database checks passed. PGlite is single-session: true multi-session contention requires PostgreSQL integration test.
+✔ tests/database.test.mjs (2840.913029ms)
+✔ minor units reject excessive decimal precision and negative money (1.128605ms)
+✔ Colombo wall time is interpreted independent of workstation timezone (0.73351ms)
+✔ request identifiers have RFC 4122 version/variant bits (15.78646ms)
+✔ advance and refundable deposit never double reduce invoice (0.282041ms)
+PASS grouped snapshots, excluded-row privacy, M/R invoice gate, unchanged approvals, historical preservation, copy revisions, frozen payments/credits, unchanged profit and permissions
+✔ tests/grouped-billing.test.mjs (3309.50102ms)
+✔ four sections normalize old names, hide excluded/empty sections and number included rows continuously (1.690884ms)
+✔ section pagination preserves all included long Sinhala rows, continuous numbering and one subtotal per section (0.765576ms)
+✔ search suggestions use existing descriptions in the selected section and allow free text independently (0.198019ms)
+✔ measured A4 pagination repeats section/table header budget and keeps atomic summaries together (1.758533ms)
+✔ long text splits without losing whitespace, paragraphs or Sinhala graphemes (16.915655ms)
+✔ oversized item fragments keep original text and money only on the first visual row (0.691477ms)
+PASS modern templates: old snapshots untouched; new receiving/corrections/final copies versioned; 20k/5k/15k balance; payment retries; no duplicate revenue; private trigger; repeat upgrade.
+✔ tests/modern-pdf-history.test.mjs (3191.196328ms)
+PASS operations bills: shared items, all six sections, advances once, pending prices, partial/full payment, credits/refunds, revisions, immutable history, original logo bytes, package rounding and role isolation.
+✔ tests/operations-bill.test.mjs (4760.850198ms)
+✔ current password proof precedes update; new login verified; temp sessions locally revoked (27.077447ms)
+✔ mismatch and identical password never contact auth (7.562373ms)
+✔ wrong current password cannot update; cleanup still runs (0.288301ms)
+✔ provider password policy failure is surfaced without claiming success (0.251386ms)
+✔ post-update verification failure does not claim the password update failed (0.223206ms)
+✔ nonadmin and changed identities cannot update another account (7.298157ms)
+✔ photo-free estimates create, reopen and revise without altering legacy data or permission checks (2549.50809ms)
+PASS pricing: null/MR, exact allocations, original quotes, explicit decisions, stale revisions, immutable documents, internal notes, six categories, idempotency, photo draft uniqueness, payments/profit, handover and permission isolation
+✔ tests/pricing-reviews.test.mjs (3073.47644ms)
+✔ 600 active entries: 100 distinct per section, stable IDs and no prices (29.47345ms)
+✔ section-specific aliases, AC abbreviation and Sinhala search work (10.754398ms)
+✔ authorized descriptions merge without metadata, duplicates or mutation; real use ranks first (2.353248ms)
+✔ selection changes description only; pending prices, discounts and allocations stay intact (0.759897ms)
+✔ repair preview uses per-line half-up cents, separate tax and pending values (1.371388ms)
+✔ large documents preserve all rows and bound page density (0.421475ms)
+PASS reference total 19,800; pending price preserved
+PASS unknown prices block invoice
+PASS retry, versions, duplicate invoice and immutable billed job
+PASS 30,000 revenue / 21,000 cost / 9,000 profit / 20,000 receivable
+PASS supplier payment does not double-count expense
+PASS allocated quantities, missing costs and confirmation
+PASS supplier credits/refunds bounded
+PASS customer credits reduce revenue
+PASS invalid lines and repeat stock returns rejected
+PASS cancellation preserves fully reversed cost history
+PASS issued snapshots immutable
+PASS raw private reads/writes denied
+PASS owner/staff permissions and data redaction
+PASS separate export permission
+PASS suspended user denied even cached retry
+PASS customer document payload excludes costs/profit
+16 repair database checks passed. PGlite single-session; live storage and concurrency require deployment checks.
+✔ tests/repair.test.mjs (2723.304642ms)
+PASS arrival, pending approval/prices, frozen snapshots, numbered corrections, completion gate, explicit handover, finance/profit invariants, permission isolation, immutable tables, retry safety and repeatable upgrade
+✔ tests/service-documents.test.mjs (2853.315713ms)
+✔ long English and Sinhala notes retain every grapheme on bounded pages (19.225389ms)
+✔ blank optional fields are omitted and explicit paragraph breaks are retained (0.460732ms)
+✔ new customer documents wrap words and retain every grapheme across A4 pages (2.428688ms)
+PASS upgrade twice preserves historical repair/rental snapshots, balances and profit
+PASS new simple rental invoice and explicit revision of old unbilled repair; nonzero new tax rejected
+PASS quantity × price − discount, payment balance and profit without double-counting
+PASS pending cost confirmation, provisional profit and original pending adjustments
+PASS one-amount historical credits split exactly, preserve invoices, obey bounds and retries
+PASS credits/refunds preserve money invariants; owner/private-data isolation retained
+✔ tests/simple-billing.test.mjs (2957.284433ms)
+PASS two A4 document backend: atomic receiving/advance, no advance, rollback, unchanged approvals, pricing gate, 20,000−5,000 balance, partial/final payments, refunds/credits, stale balance, idempotency, immutable revisions, explicit handover, no duplicate revenue and role isolation
+✔ tests/two-documents.test.mjs (2847.396905ms)
+✔ administrator can discover Automart before installation without fabricated grants (0.922168ms)
+✔ workshop discovery respects staff and owner permissions (0.17867ms)
+✔ missing RPC, denied permission and connection failures have distinct guidance (0.367005ms)
+ℹ tests 45
+ℹ suites 0
+ℹ pass 45
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7288.646988

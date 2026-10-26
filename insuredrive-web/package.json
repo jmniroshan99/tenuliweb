@@ -1,6 +1,6 @@
 {
   "name": "tenuli-auto-care",
-  "version": "1.19.0",
+  "version": "1.19.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -28,7 +28,6 @@
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "@vitejs/plugin-react": "5.0.4",
-    "fake-indexeddb": "6.2.4",
     "pg": "^8.16.3",
     "prettier": "^3.6.2",
     "typescript": "5.9.3",

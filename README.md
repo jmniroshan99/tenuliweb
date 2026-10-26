@@ -1,8 +1,10 @@
-# Tenuli Auto Care Web v1.19.0 — GitHub to Netlify
+# Tenuli Auto Care Web v1.19.1 — GitHub to Netlify
 
 This separate package contains the React/Vite web application, its 600-item repair catalogue, A4 blue-letterhead documents, the required build helper and database setup files. It uses your existing Supabase backend and accounts. Flutter source and local environment values are excluded.
 
-Start with **[NETLIFY_DEPLOY_GUIDE.md](NETLIFY_DEPLOY_GUIDE.md)**.
+Vehicle-photo uploading, its gallery and Local Photo Storage settings have been removed. Existing stored photo files and records are not deleted. Supplier bill attachments and branding/logo uploads remain available.
+
+Read **[docs/V1_19_1_PHOTO_REMOVAL.md](docs/V1_19_1_PHOTO_REMOVAL.md)** for this update, then **[NETLIFY_DEPLOY_GUIDE.md](NETLIFY_DEPLOY_GUIDE.md)** for hosting.
 
 Keep these items side by side in the GitHub repository root:
 
@@ -20,4 +22,4 @@ The scripts retain their original sibling paths. Copying only `insuredrive-web/`
 
 Local checks inside `insuredrive-web`: `npm ci`, `npm test`, `npm run build`. To run locally, copy `.env.example` to `.env.local`, fill your existing public configuration, then `npm run dev`. `.env.local` is ignored by Git.
 
-No database migration is required just for hosting. Feature-specific upgrades and verification notes remain in `docs/`. Local vehicle photos stay tied to their original browser/origin; follow the guide before switching from localhost to the hosted domain.
+No database migration is required to remove the photo feature from a working v1.19.0 installation, or just for hosting. Existing pricing SQL and historical photo metadata remain included for compatibility. Feature-specific upgrades and verification notes remain in `docs/`.

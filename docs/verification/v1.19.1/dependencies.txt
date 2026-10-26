@@ -1,0 +1,19 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+tenuli-auto-care@1.19.1 /workspace/scratch/61ccafdf1ded/vehicle-photo-removal/Tenuli_Auto_Care_Web/insuredrive-web
+├── @electric-sql/pglite@0.3.14
+├── @supabase/supabase-js@2.102.0
+├── @types/leaflet@1.9.20
+├── @types/react-dom@19.2.2
+├── @types/react@19.2.2
+├── @vitejs/plugin-react@5.0.4
+├── html2canvas@1.4.1
+├── jspdf@4.2.1
+├── leaflet@1.9.4
+├── lucide-react@0.468.0
+├── pg@8.16.3
+├── prettier@3.6.2
+├── react-dom@19.2.0
+├── react@19.2.0
+├── typescript@5.9.3
+└── vite@7.3.7
+

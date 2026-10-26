@@ -1,10 +1,3 @@
-import {
-  JobPhotoGallery,
-  VehiclePhotos,
-  newPhotoQueue,
-  saveEstimatePhotos,
-} from "./LocalPhotos";
-import { loadQueues, bindQueue, type PhotoQueue } from "../lib/local-photos";
 import PriceReview from "./PriceReview";
 import { useEffect, useState } from "react";
 import { Plus, RefreshCw, FileText, Wrench } from "lucide-react";
@@ -47,13 +40,13 @@ const infoFields: Field[] = [
   field("manufacture_notes", "Manufacture notes"),
 ];
 export default function Repairs({
-  photoScope,
+  catalogueScope,
   permissions,
   language,
   administrator,
   refreshAccess,
 }: {
-  photoScope: string;
+  catalogueScope: string;
   permissions: Set<string>;
   language: string;
   administrator: boolean;
@@ -374,12 +367,6 @@ export default function Repairs({
               <p>Insurer: {job.insurer_approval}</p>
             </div>
           </div>
-          <JobPhotoGallery
-            scope={photoScope}
-            job={job as any}
-            language={language}
-            manage={manage}
-          />
           <PriceReview
             job={job}
             reviews={data?.price_reviews || []}
@@ -720,13 +707,13 @@ export default function Repairs({
         >
           <EstimateEditor
             job={editor}
-            photoScope={photoScope}
+            catalogueScope={catalogueScope}
             language={language}
             jobs={jobs}
             catalogueAccess
             manageCatalogue={administrator && can("manage_system_settings")}
             close={() => setEditor(null)}
-            save={async (p, photos) => {
+            save={async (p) => {
               if (!data?.pricing_reviews)
                 throw Error(
                   t(
@@ -736,12 +723,9 @@ export default function Repairs({
                 );
               const j = await repair("save", p);
               setSavedEstimateId(j.id);
-              if (photos?.photos.length) await bindQueue(photos, j);
-              const photoSave = saveEstimatePhotos(photos, j);
               setEditor(null);
               setSelected(j.id);
               await load();
-              await photoSave;
             }}
           />
         </Modal>
@@ -925,7 +909,7 @@ export default function Repairs({
   );
 }
 export function EstimateEditor({
-  photoScope,
+  catalogueScope,
   job,
   language,
   jobs = [],
@@ -937,33 +921,13 @@ export function EstimateEditor({
   job: Row;
   language: string;
   jobs?: Row[];
-  photoScope: string;
-  save: (p: Row, photos?: PhotoQueue) => Promise<void>;
+  catalogueScope: string;
+  save: (p: Row) => Promise<void>;
   close: () => void;
   catalogueAccess?: boolean;
   manageCatalogue?: boolean;
 }) {
-  const catalogue = useSharedRepairCatalogue(photoScope, catalogueAccess);
-  const [photosLoaded, setPhotosLoaded] = useState(false);
-  const [photosPreparing, setPhotosPreparing] = useState(false);
-  const [photos, setPhotos] = useState<PhotoQueue>(() =>
-    newPhotoQueue(photoScope),
-  );
-  useEffect(() => {
-    let alive = true;
-    void loadQueues(photoScope).then((qs) => {
-      const q =
-        qs.find((q) => q.jobId === job.id && !!job.id) ||
-        qs.find((q) => q.id === job.info?.photo_draft_id);
-      if (alive) {
-        if (q) setPhotos({ ...q });
-        setPhotosLoaded(true);
-      }
-    });
-    return () => {
-      alive = false;
-    };
-  }, [photoScope, job.id]);
+  const catalogue = useSharedRepairCatalogue(catalogueScope, catalogueAccess);
   const [lines, setLines] = useState<RepairLine[]>(() =>
     initialRepairLines(job),
   );
@@ -1006,13 +970,6 @@ export function EstimateEditor({
       language={language}
       onCancel={close}
       onSave={async (p) => {
-        if (!photosLoaded || photosPreparing)
-          throw Error(
-            t(
-              "Photo queue is loading; try again shortly.",
-              "ඡායාරූප පූරණය වෙමින් ඇත; නැවත උත්සාහ කරන්න.",
-            ),
-          );
         for (const n of document.querySelectorAll<HTMLInputElement>(
           ".grouped-edit-line input",
         ))
@@ -1027,16 +984,13 @@ export function EstimateEditor({
         const { reason, ...info } = p;
         info.expected_customer_minor ??= 0;
         info.expected_insurer_minor ??= 0;
-        await save(
-          {
-            job_id: job.id,
-            version: job.version,
-            reason,
-            info: { ...info, photo_draft_id: photos.id },
-            lines,
-          },
-          photos,
-        );
+        await save({
+          job_id: job.id,
+          version: job.version,
+          reason,
+          info,
+          lines,
+        });
       }}
     >
       {job.lines?.some((line: RepairLine) => line.tax_bps > 0) && (
@@ -1056,19 +1010,6 @@ export function EstimateEditor({
           { timeZone: "Asia/Colombo" },
         )}
       </p>
-      {photosLoaded ? (
-        <VehiclePhotos
-          scope={photoScope}
-          language={language}
-          queue={photos}
-          onChange={setPhotos}
-          onPreparingChange={setPhotosPreparing}
-        />
-      ) : (
-        <p role="status">
-          {t("Loading photo queue…", "ඡායාරූප පූරණය වෙමින්…")}
-        </p>
-      )}
       <GroupedRepairEditor
         lines={lines}
         setLines={setLines}

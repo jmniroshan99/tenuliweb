@@ -1,0 +1,23 @@
+{
+  "protected_files_byte_identical": 82,
+  "production_photo_markers_absent": true,
+  "source_photo_markers_absent": true,
+  "changed": [
+    "Tenuli_Auto_Care_Web/LOCAL_PHOTOS_AND_PRICE_REVIEW_SETUP.md",
+    "Tenuli_Auto_Care_Web/NETLIFY_DEPLOY_GUIDE.md",
+    "Tenuli_Auto_Care_Web/NETLIFY_VERIFICATION.md",
+    "Tenuli_Auto_Care_Web/README.md",
+    "Tenuli_Auto_Care_Web/TENULI_START_HERE.md",
+    "Tenuli_Auto_Care_Web/insuredrive-web/package-lock.json",
+    "Tenuli_Auto_Care_Web/insuredrive-web/package.json",
+    "Tenuli_Auto_Care_Web/insuredrive-web/src/App.tsx",
+    "Tenuli_Auto_Care_Web/insuredrive-web/src/features/Repairs.tsx",
+    "Tenuli_Auto_Care_Web/insuredrive-web/src/style.css",
+    "Tenuli_Auto_Care_Web/insuredrive-web/tests/estimate-ui-fixture.tsx"
+  ],
+  "deleted": [
+    "Tenuli_Auto_Care_Web/insuredrive-web/src/features/LocalPhotos.tsx",
+    "Tenuli_Auto_Care_Web/insuredrive-web/src/lib/local-photos.ts",
+    "Tenuli_Auto_Care_Web/insuredrive-web/tests/local-photos.test.mjs"
+  ]
+}

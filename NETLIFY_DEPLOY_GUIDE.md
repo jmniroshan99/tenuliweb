@@ -1,6 +1,6 @@
 # Publish Tenuli Auto Care through GitHub and Netlify
 
-Prepared 25 October 2026. This package is the v1.19.0 web application with the 600-item catalogue and blue A4 document design.
+Updated 26 October 2026. This package is the v1.19.1 web application with vehicle-photo uploading removed, while retaining the 600-item catalogue and blue A4 document design. See [docs/V1_19_1_PHOTO_REMOVAL.md](docs/V1_19_1_PHOTO_REMOVAL.md) for the current change and verification notes.
 
 ## 1. Extract the web ZIP
 
@@ -84,11 +84,13 @@ Netlify hosts the frontend. It does not replace Supabase Auth, database or Stora
 
 Once the final domain is known, review Supabase Authentication → URL Configuration and set the intended production Site URL. Preserve any still-required existing client URLs. Add exact permitted redirect URLs only for flows the app actually uses. The current application uses password sign-in and does not process OAuth/recovery callbacks merely because a URL is allowlisted; changing these settings does not add those flows.
 
-## 7. Local vehicle photos when changing domains
+## 7. Vehicle-photo feature removed in v1.19.1
 
-Pending photo queues, folder permissions and local-file handles belong to the original browser profile and site origin. Moving from localhost to a Netlify URL, or later to a custom domain, does not move that browser storage.
+This release has no vehicle-photo uploader, camera chooser, vehicle-photo gallery or Local Photo Storage settings. Estimate creation, editing and revisions do not require photo queues or folder/camera permissions.
 
-Before switching, finish local photo saves or download the pending photos ZIP from the old site. Keep that old browser data until recovery is complete. On the final stable HTTPS domain, open Local Photo Storage and choose the folder again. Existing locally saved files remain on the computer; galleries may require reselecting files because old browser handles are unavailable on the new origin. Photos are not automatically uploaded to Netlify or cloud storage.
+The update does not delete previously exported photo files, browser photo data, existing job records or storage buckets. Existing files on your computer remain in their original folders and can be opened through your computer's file manager. The updated application does not provide the former photo gallery or recovery controls. Browser data from an older site origin does not transfer automatically to a new domain; retain any old browser data and existing backups you need.
+
+Supplier bill PDF/image attachments and business-logo uploads are separate features and remain available. Keep the existing Supabase project. No database migration is needed for this removal on a working v1.19.0 installation.
 
 ## Troubleshooting
 
@@ -99,11 +101,10 @@ Before switching, finish local photo saves or download the pending photos ZIP fr
 - **Blank page / assets fail:** publish `dist` relative to base `insuredrive-web`; keep the generated security headers and configured fallback.
 - **Permission denied after sign-in:** check the existing application's active account and permissions. Deployment does not grant new roles.
 - **Shared catalogue unavailable:** built-in 600 items still work; apply `TENULI_CATALOGUE_UPGRADE.sql` only if you need administrator shared saving and it is not already installed.
-- **Photo gallery empty after moving domains:** the previous site's browser storage has not transferred; follow the local-photo step above.
 
 ## Verification scope
 
-The separate package is checked with a clean dependency install, the existing automated suite and a production build using the existing public configuration supplied through build environment variables. Source archives are scanned to exclude real env files, privileged keys, dependencies and build output. A local build is not a live Netlify deployment; final hosting/auth/device checks require your chosen repository, Netlify account and resulting URL.
+See [docs/V1_19_1_PHOTO_REMOVAL.md](docs/V1_19_1_PHOTO_REMOVAL.md) for the checks performed for this release and their limits. The source ZIP must exclude private environment files, privileged keys, dependencies and generated build output. A local build is not a live Netlify deployment; final hosting/auth/device checks require your chosen repository, Netlify account and resulting URL.
 
 ## Official references
 
